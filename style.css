@@ -1,0 +1,91 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.A1{
+    width: 100%;
+    height: 1000vh;
+    padding: 10px;
+    background: linear-gradient(to bottom right, black, rgb(17, 17, 61), black);
+}
+
+.navigation-1{
+    width: 100%;
+    display: none;
+}
+
+.navigation-1items{
+    list-style: none;
+    margin: 0;
+}
+
+.top-links{
+    color: white;
+    border-bottom: 1px grey solid;
+    font-size: 16px;
+    padding: 10px;
+    padding-left: 30px;
+    display: block;
+}
+
+.top-links:hover{
+    background-color: rgba(0, 0, 102, 0.699);
+    text-decoration: none;
+    color: white;
+    font-size: 20px;
+}
+.Ac1{
+    display: none;
+}
+
+.man-nav{
+    padding: 5px;
+    border-bottom: 1px solid rgb(53, 49, 49);
+}
+
+.Sear{
+    padding: 5px;
+    border-radius: 20px;
+    border: 1px solid grey;
+}
+
+.man-nav:hover+.navigation-1,.navigation-1:hover{
+    display: block;
+}
+
+@media (min-width: 1024px){
+    .A1{
+        width: 100%;
+        height: 1000vh;
+        background: linear-gradient(to bottom right, black, rgb(17, 17, 61), black);
+        padding: 10px;
+    }
+
+    .man-nav{
+        display: none;
+    }
+
+    .navigation-1{
+        display: block;
+    }
+    .navigation-1items{
+        display: flex;
+    }
+
+    .top-links{
+        font-size: 13px;
+    }
+
+    .Ac1{
+        display: block;
+    }
+    .Ac{
+        display: none;
+    }
+
+
+
+
+}
