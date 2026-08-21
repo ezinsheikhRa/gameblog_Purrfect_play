@@ -3,13 +3,13 @@
     padding: 0;
     box-sizing: border-box;
 }
-
 .A1{
     width: 100%;
-    height: 1000vh;
+    height: 1400vh;
     padding: 10px;
     background: linear-gradient(to bottom right, black, rgb(17, 17, 61), black);
 }
+
 .nav-lgdevice{
     display: none;
     
@@ -42,10 +42,12 @@
 }
 
 .sear{
-    padding: 4px;
+    padding: 5px;
     border: 0;
     border-radius: 40px;
-    margin-right: 0;
+    margin: 10px;
+    padding-left: 20px;
+    padding-right: 100px;
 }
 
 .wlcm-sc{
@@ -54,13 +56,14 @@
     background-image: url(images/Wallpaper\ gaming.jpg);
     background-size: cover;
     background-position: center;
+    border-bottom: 3px solid rgb(14, 0, 39);
 }
 .box9{
     width: 300px;
     height: 350px;
     background-color: rgba(0, 0, 0, 0.658);
     position: absolute;
-    top: 20%;
+    top: 30%;
     bottom: 14%;
     left: 10%;
     border-radius: 30px;
@@ -72,6 +75,42 @@
     animation: box-anim99 2s ease-out, float-box 2s ease-in-out infinite;
     opacity: 1;
     
+}
+.introo-small{
+    width: 100%;
+    height: 8%;
+}
+.intro-text{
+    width: 100%;
+    margin-bottom: 15px;
+}
+.intro-text-title{
+    color: white;
+    font-size: 35px;
+    padding: 15px;
+}
+
+p{
+    color: white;
+    font-size: 18px;
+    padding: 10px;
+    padding-top: 0;
+}
+
+
+span{
+    color: rgb(198, 198, 255);
+    font-size: 25px;
+}
+
+.intro-img{
+    border-radius: 20px;
+    width: 100%;
+    height: 50%;
+    background-image: url(images/img-intro.jpg);
+    background-size: cover;
+    background-position: top;
+    box-shadow: 0px 0px 10px 0px rgb(56, 0, 177);
 }
 .scrol-bt{
     background-color: rgba(1, 1, 58, 0.514); 
@@ -88,6 +127,17 @@
     text-decoration: none;
 }
 
+.carousel-texts{
+    font-size: 15px;
+    margin-top: 10px;
+    margin-bottom: 0;
+}
+
+.carousel-texts-title{
+    color: rgb(252, 252, 252);
+    font-weight: 500;
+}
+
 .carousel-item img{
     height: 250px;
     border-radius: 40px;
@@ -95,567 +145,334 @@
     box-shadow:0px 0px 5px 0px rgb(45, 39, 70);
 
 }
-.intro{
+
+.stories-cards{
     width: 100%;
-    height: 500px;
+    border-radius: 20px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.stories-cards1{
+    width: 90%;
+    border-radius: 20px;
+    background-color: rgb(20, 20, 20);
+    position: relative;
+    box-shadow:0px 0px 5px 0px rgb(48, 30, 119);
+    margin-bottom: 20px;
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+    
+}
+.sc1{
+    height: 420px;
+}
+.sc2{
+    height: 420px;
+}
+.sc3{
+    height: 470px;
+}
+.stories-cards1:hover{
+    border: 1px solid rgb(81, 81, 82);
+    box-shadow:0px 0px 20px 0px rgb(20, 20, 20);
+    transform: translateY(-8px);
+
+}
+
+.card-image1{
+    width: 100%;
+    height: 40%;
+    background-image: url(images/Silent\ Hill\ F.jpg);
+    background-size: cover;
+    border-radius: 20px;
+}
+
+.infor-card{
+    width: 100%;
+    border-radius: 20px;
+    position: absolute;
+    top: 130px;
+    background-color: rgb(20, 20, 20);
+    border: 1px solid rgb(56, 56, 56);
+}
+
+.title-card1{
+    color: white; 
+    font-size: 30px;
+    padding: 5px;
+    margin-bottom: 0;
+    margin-top: 5px;
+    margin-left: 10px;
+    font-weight: 500;
+    
+}
+
+i{
+    color: white;
+}
+.review-person{
+    width: 100%; 
+    height: 60px; 
+    display: flex; 
+    align-items: center;
+}
+.readmore{
+    padding: 10px;
+    background-color: rgb(0, 0, 2);
+    border: 0.5px solid gray;
+    border-radius: 10px;
+    color: white;
+    margin-left: 10px;
+}
+
+.readmore:hover{
+    color: black;
+    background-color: white;
+    border: 1px solid black;
+    text-decoration: none;
+}
+
+.like-dislike-icons{
+    display: flex;
+    justify-content: flex-end;
+    margin-right: 10px;
+    margin-bottom: 15px;
+}
+
+.fa-regular:hover{
+    color: blue !important;
+}
+.card-image2{
+    width: 100%;
+    height: 40%;
+    background-image: url(images/Shinobi_\ Art\ of\ Vengeance\ Coming\ to\ Switch\ 2\ in\ September.jpg);
+    background-size: cover;
+    border-radius: 20px;
+}
+
+.card-image3{
+    width: 100%;
+    height: 40%;
+    background-image: url(images/Shinobi_\ Art\ of\ Vengeance\ Coming\ to\ Switch\ 2\ in\ September.jpg);
+    background-size: cover;
+    border-radius: 20px;
+}
+.card-image3{
+    width: 100%;
+    height: 40%;
+    background-image: url(images/Whitethorn\ Games.jpg);
+    background-size: cover;
+    border-radius: 20px;
+}
+
+.card-image4{
+    width: 100%;
+    height: 40%;
+    background-image: url(images/PUBG_BGMI\ BACKGROUND\ FOR\ THUMBNAIL.jpg);
+    background-size: cover;
+    border-radius: 20px;
+}
+
+.view-all-sec{
+    width: 100%;
+    height: 30px;
+    margin-top: 10px;
+    display: flex;
+    justify-content: center;
+}
+
+.game-cards{
+    border: 1px solid rgb(88, 88, 88);
+    border-radius: 20px;
+    width: 90%;
+    height: 300px;
+    margin-left: 15px;
+    margin-right: 15px;
+    margin-top: 15px;
+    background-image: url(images/Rules\ of\ survival.jpg);
+    background-size: cover;
+    background-position: center;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: flex-end;
+    box-shadow:0px 0px 20px 0px rgb(36, 36, 36);
+    box-shadow: inset 0 -100px 50px rgba(80, 80, 80, 0.5);
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+
+.gc1{
+    background: url(images/roblox.jpg);
+    background-size: cover;
+    background-position: center;
+}
+
+.gc2{
+    background: url(images/Call\ Of\ Duty_\ Black\ Ops\ 2\ \(2012\).jpg);
+    background-size: cover;
+}
+
+.gc3{
+    background: url(images/code\ of\ war.jpg);
+    background-size: cover;
+    background-position: center;
+}
+.gc4{
+    background: url(images/raid-shadow-legends.jpg);
+    background-size: cover;
+    background-position: center;
+}
+/* racing game cards */
+.Rc1{
+    background: url(images/asphalt-legends.jpg);
+    background-size: cover;
+    background-position: center;
+}
+
+.Rc2{
+    background: url(images/froza-horizon.jpg);
+    background-size: cover;
+    background-position:bottom;
+}
+.Rc3{
+    background: url(images/RIDE-6.jpg);
+    background-size: cover;
+    background-position:center;
+}
+.Rc4{
+    background: url(images/asphalt-8.jpg);
+    background-size: cover;
+    background-position:top;
+}
+.Rc5{
+    background: url(images/Drag\ Racing\ Night.jpg);
+    background-size: cover;
+    background-position:center;
+}
+
+.Rc6{
+    background: url(images/drift-legends.jpg);
+    background-size: cover;
+    background-position:center;
+}
+/* horror games */
+.hr1{
+    background: url(images/visage.jpg);
+    background-size: cover;
+    background-position:center;
+}
+
+.hr2{
+    background: url(images/choo-choo-charles.jpg);
+    background-size: cover;
+    background-position:center;
+}
+
+.hr3{
+    background: url(images/poppy-playtime.jpg);
+    background-size: cover;
+    background-position:top;
+}
+.hr4{
+    background: url(images/Phasmophobia.jpg);
+    background-size: cover;
+    background-position:bottom;
+}
+.hr5{
+    background: url(images/BATDR.jpg);
+    background-size: cover;
+    background-position:center;
+}
+.hr6{
+    background: url(images/Fear\ The\ Spotlight\ .jpg);
+    background-size: cover;
+    background-position:center;
+}
+
+.game-card-sec{
+    width: 100%;
+    display: flex;
+    flex-flow: wrap;
+}
+
+.game-cards:hover{
+    box-shadow: inset 0 -140px 50px rgba(0, 0, 0, 0.5);
+    margin-bottom: 5px;
+    text-decoration: none;
+    transform: translateY(-8px);
+}
+
+.game-card-details{
+    background-color: rgb(17, 0, 104);
+    color: white;
+    padding: 8px;
+    padding-left: 20px;
+    padding-right: 20px;
+    margin: 0;
+    font-size: 15px;
+    border-radius: 50px;
+    margin-bottom: 5px;
+    text-align: center;
+}
+.game-card-details:hover{
+    background-color: rgb(0, 0, 29);
+    color: white;
+    text-decoration: none;
+}
+
+.server-join-card{
+    width: 100%;
+    height: 150px;
+    margin-top: 20px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.sz{
+    font-size: 40px;
+    margin-right: 5px ;
+}
+.server-join-text{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+.discord-btn{
+    padding: 5px;
+    padding-right: 30px;
+    padding-left: 30px;
+    background-color: rgb(120, 135, 238);
+    color: black;
+    font-size: 22px;
+    font-weight: 700;
+    border-radius: 50px;
+    border: 2px solid white;
+    margin-top: 0;
+}
+
+.discord-btn:hover{
+    text-decoration: none;
+    color: black;
+
+}
+/* .feed-bx{
+    width: 100%;
+    height: 5%;
     border: 1px solid white;
-    margin-top:0 ;
+    border-radius: 12px;
+    background-color: rgb(22, 22, 22);
+    margin-top: 15px;
+} */
+
+.footer{
+    width: 100%
 }
 
-.intro-box1{
-    width: 100%;
-    height: 50%;
-    border-bottom: 1px solid white;
-}
 
-.intro-box2{
-    width: 100%;
-    height: 50%;
-    border-bottom: 1px solid white;
-}
 
-@media (min-width: 1024px){
-    .A1{
-        width: 100%;
-        height: 1000vh;
-        padding: 20px;
-        background: linear-gradient(to bottom right, black, rgb(17, 17, 61), black);
-    }
-
-    .fixed-top{
-        display: none ;
-    }
-    .top{
-        display: none !important;
-    }
-
-    .nav-lgdevice{
-        width: 100%;
-        height: 70px;
-        display: flex;
-        background-color: rgb(16, 17, 21);
-        position: sticky;
-        top: 0;
-        z-index: 1000;
-    }
-    .navigation-lgdevice{
-        display: flex;
-        position: sticky;
-        top: 0;
-        z-index: 1000;
-    }
-
-    .top-links:hover{
-        background-color: rgb(0, 0, 65);
-        border: none;
-        font-size: 16px;
-        border-radius: 50px;
-        box-shadow: 0px 0px 10px 0px rgb(39, 0, 179);
-    }
-
-    .top-links{
-        width: 105px;
-        text-align: center;
-        color: white;
-        font-size: 16px;
-        padding: 15px;
-    }
-
-    .navigation-1items{
-        list-style: none;
-        margin: 0;
-        display: flex;
-        align-items: center;
-    }
-
-    .navigation-lgdevice:last-child{
-        align-items: center
-    }
-    
-    .sear{
-        width: 250px;
-        margin-left: 30px;
-    }
-
-    .wlcm-sc{
-        width: 100%;
-        height: 650px;
-        background-color: black;
-    }
-
-    .box1{
-        width: 300px;
-        height: 200px;
-        border: 1px solid rgb(22, 22, 22);
-        background-image: url(images/Minecraft\ _\ une\ mise\ à\ jour\ céleste\ en\ préparation\ chez\ Mojang\ _.jpg);
-        background-size: cover;
-        background-position: center;
-        position: absolute;
-        top: 20px;
-        left: 60px;
-        border-radius: 30px;
-        box-shadow: 0px 0px 10px 0px rgb(14, 14, 14);
-        animation: box-anim 2s ease-out;
-        opacity: 1;
-
-    }
-    .box2{
-        width: 250px;
-        height: 270px;
-        border: 1px solid rgb(22, 22, 22);
-        background-image: url(images/Game.jpg);
-        background-size: cover;
-        position: absolute;
-        top: 330px;
-        left: 10px;
-        border-radius: 30px;
-        box-shadow: 0px 0px 10px 0px rgb(14, 14, 14);
-        animation: box-anim2 2s ease-out;
-        opacity: 1;
-
-        
-    }
-    .box3{
-        width: 200px;
-        height: 250px;
-        border: 1px solid rgb(22, 22, 22);
-        background-image: url(images/download\ \(22\).jpg);
-        background-size: cover;
-        position: absolute;
-        top: 80px;
-        left: 370px;
-        border-radius: 30px;
-        box-shadow: 0px 0px 10px 0px rgb(14, 14, 14);
-        animation: box-anim3 2s ease-out;
-        opacity: 1;
-        
-    }
-    .box4{
-        width: 200px;
-        height: 300px;
-        border: 1px solid rgb(22, 22, 22);
-        background-image: url(images/King\ of\ the\ Hill.jpg);
-        background-size: cover;
-        background-position:bottom;
-        position: absolute;
-        top: 40px;
-        right: 25px;
-        border-radius: 30px;
-        box-shadow: 0px 0px 10px 0px rgb(14, 14, 14);
-        animation: box-anim44 2s ease-out;
-        opacity:1;
-        
-    }
-    .box5{
-        width: 230px;
-        height: 180px;
-        border: 1px solid rgb(22, 22, 22);
-        background-image: url(images/resident\ evil.jpg);
-        background-size: cover;
-        background-position: center;
-        position: absolute;
-        bottom: 50px;
-        right: 250px;
-        border-radius: 30px;
-        box-shadow: 0px 0px 10px 0px rgb(14, 14, 14);
-        animation: box-anim5 2s ease-out;
-        opacity: 1;
-
-    }
-    .box6{
-        width: 200px;
-        height: 160px;
-        border: 1px solid rgb(22, 22, 22);
-        background-image: url(images/cross\ fire.jpg);
-        background-size: cover;
-        background-position: center;
-        position: absolute;
-        bottom: 20px;
-        right: 20px;
-        border-radius: 30px;
-        box-shadow: 0px 0px 10px 0px rgb(14, 14, 14);
-        animation: box-anim6 2s ease-out;
-        opacity: 1;
-        
-    }
-    .box7{
-        width: 230px;
-        height: 170px;
-        border: 1px solid rgb(22, 22, 22);
-        background-image: url(images/Prince\ of\ Persia.jpg);
-        background-size: cover;
-        position: absolute;
-        bottom: 20px;
-        left: 280px;
-        border-radius: 30px;
-        box-shadow: 0px 0px 10px 0px rgb(14, 14, 14);
-        animation: box-anim7 2s ease-out;
-        opacity: 1;
-        
-    }
-    .box8{
-        width: 180px;
-        height: 150px;
-        border: 1px solid rgb(22, 22, 22);
-        background-image: url(images/gta-san.jpg);
-        background-size: cover;
-        background-position: center;
-        position: absolute;
-        top: 10px;
-        right: 250px;
-        border-radius: 30px;
-        box-shadow: 0px 0px 10px 0px rgb(14, 14, 14);
-        animation: box-anim8 2s ease-out;
-        opacity: 1;
-        
-    }
-    .box9{
-        width: 650px;
-        height: 350px;
-        background-color: rgba(0, 0, 0, 0.658);
-        position: absolute;
-        top: 20%;
-        bottom: 14%;
-        left: 18%;
-        border-radius: 30px;
-        box-shadow: 0px 0px 20px 0px rgb(45, 39, 70);
-        display: flex;
-        flex-direction: column;
-        align-items: center;
-        justify-content: center;
-        animation: box-anim99 2s ease-out, float-box 2s ease-in-out infinite;
-        opacity: 1;
-        
-    }
-
-    .scrol-bt{
-        background-color: rgba(1, 1, 58, 0.514); 
-        padding: 15px; 
-        padding-left: 50px; 
-        padding-right: 50px; 
-        border-radius: 50px; 
-        text-decoration: none; 
-        color: white;
-        box-shadow: 0px 0px 10px 0px rgb(56, 0, 177);
-    }
-
-    .scrol-bt:hover{
-        color: white;
-        text-decoration: none;
-    }
-    .carousel-item img{
-        height: 550px;
-        border-radius: 40px;
-        border: 1px solid rgb(36, 36, 36);
-        box-shadow:0px 0px 5px 0px rgb(45, 39, 70);
-
-    }
-}
-
-@keyframes box-anim44{
-    from{
-        opacity: 0;
-        right: 10px;
-    }
-    to{
-        opacity: 1;
-        right: 25px;
-
-    }
-}
-
-/* 8329244690 */
-
-@media (min-width:1181px){
-
-    .nav-lgdevice{
-        position: sticky;
-        top: 0;
-        z-index: 1000;
-    }
-    .navigation-lgdevice{
-        position: sticky;
-        top: 0;
-        z-index: 1000;
-    }
-    
-    .top-links{
-        width: 130px;
-        text-align: center;
-        color: white;
-        font-size: 16px;
-        padding: 15px;
-
-    }
-
-    .sear{
-        margin-left: 240px;
-    }
-
-    .wlcm-sc{
-        width: 100%;
-        height: 650px;
-        background-color: black;
-    }
-
-    .box1{
-        width: 350px;
-        height: 200px;
-        border: 1px solid rgb(22, 22, 22);
-        background-image: url(images/Minecraft\ _\ une\ mise\ à\ jour\ céleste\ en\ préparation\ chez\ Mojang\ _.jpg);
-        background-size: cover;
-        position: absolute;
-        top: 20px;
-        left: 60px;
-        border-radius: 30px;
-        box-shadow: 0px 0px 10px 0px rgb(14, 14, 14);
-        animation: box-anim 2s ease-out;
-        opacity: 1;
-
-    }
-    .box2{
-        width: 250px;
-        height: 270px;
-        border: 1px solid rgb(22, 22, 22);
-        background-image: url(images/Game.jpg);
-        background-size: cover;
-        position: absolute;
-        top: 330px;
-        left: 10px;
-        border-radius: 30px;
-        box-shadow: 0px 0px 10px 0px rgb(14, 14, 14);
-        animation: box-anim2 2s ease-out;
-        opacity: 1;
-
-        
-    }
-    .box3{
-        width: 250px;
-        height: 300px;
-        border: 1px solid rgb(22, 22, 22);
-        background-image: url(images/download\ \(22\).jpg);
-        background-size: cover;
-        position: absolute;
-        top: 80px;
-        left: 450px;
-        border-radius: 30px;
-        box-shadow: 0px 0px 10px 0px rgb(14, 14, 14);
-        animation: box-anim3 2s ease-out;
-        opacity: 1;
-        
-    }
-    .box4{
-        width: 250px;
-        height: 300px;
-        border: 1px solid rgb(22, 22, 22);
-        background-image: url(images/King\ of\ the\ Hill.jpg);
-        background-size: cover;
-        background-position:bottom;
-        position: absolute;
-        top: 20px;
-        right: 100px;
-        border-radius: 30px;
-        box-shadow: 0px 0px 10px 0px rgb(14, 14, 14);
-        animation: box-anim4 2s ease-out;
-        opacity: 1;
-        
-    }
-    .box5{
-        width: 250px;
-        height: 200px;
-        border: 1px solid rgb(22, 22, 22);
-        background-image: url(images/resident\ evil.jpg);
-        background-size: cover;
-        background-position: center;
-        position: absolute;
-        bottom: 50px;
-        right: 400px;
-        border-radius: 30px;
-        box-shadow: 0px 0px 10px 0px rgb(14, 14, 14);
-        animation: box-anim5 2s ease-out;
-        opacity: 1;
-
-    }
-    .box6{
-        width: 250px;
-        height: 200px;
-        border: 1px solid rgb(22, 22, 22);
-        background-image: url(images/cross\ fire.jpg);
-        background-size: cover;
-        background-position: center;
-        position: absolute;
-        bottom: 20px;
-        right: 20px;
-        border-radius: 30px;
-        box-shadow: 0px 0px 10px 0px rgb(14, 14, 14);
-        animation: box-anim6 2s ease-out;
-        opacity: 1;
-        
-    }
-    .box7{
-        width: 250px;
-        height: 190px;
-        border: 1px solid rgb(22, 22, 22);
-        background-image: url(images/Prince\ of\ Persia.jpg);
-        background-size: cover;
-        position: absolute;
-        bottom: 20px;
-        left: 300px;
-        border-radius: 30px;
-        box-shadow: 0px 0px 10px 0px rgb(14, 14, 14);
-        animation: box-anim7 2s ease-out;
-        opacity: 1;
-        
-    }
-    .box8{
-        width: 200px;
-        height: 180px;
-        border: 1px solid rgb(22, 22, 22);
-        background-image: url(images/gta-san.jpg);
-        background-size: cover;
-        background-position: center;
-        position: absolute;
-        top: 10px;
-        right: 400px;
-        border-radius: 30px;
-        box-shadow: 0px 0px 10px 0px rgb(14, 14, 14);
-        animation: box-anim8 2s ease-out;
-        opacity: 1;
-        
-    }
-    .box9{
-        width: 650px;
-        height: 350px;
-        background-color: rgba(0, 0, 0, 0.658);
-        position: absolute;
-        top: 20%;
-        bottom: 14%;
-        left: 26%;
-        border-radius: 30px;
-        box-shadow: 0px 0px 20px 0px rgb(45, 39, 70);
-        display: flex;
-        flex-direction: column;
-        align-items: center;
-        justify-content: center;
-        animation: box-anim9 2s ease-out, float-box 2s ease-in-out infinite;
-        opacity: 1;
-        
-    }
-
-    .scrol-bt{
-        background-color: rgba(1, 1, 58, 0.514); 
-        padding: 15px; 
-        padding-left: 50px; 
-        padding-right: 50px; 
-        border-radius: 50px; 
-        text-decoration: none; 
-        color: white;
-        box-shadow: 0px 0px 10px 0px rgb(56, 0, 177);
-    }
-
-    .scrol-bt:hover{
-        color: white;
-        text-decoration: none;
-    }
-
-    .carousel-item img{
-        height: 550px;
-        border-radius: 40px;
-        border: 1px solid rgb(36, 36, 36);
-        box-shadow:0px 0px 5px 0px rgb(45, 39, 70);
-
-    }
-}
-@keyframes box-anim{
-    from{
-        opacity: 0;
-        left: 10px;
-    }
-    to{
-        opacity: 1;
-        left: 60px;
-    }
-}
-@keyframes box-anim2{
-    from{
-        opacity: 0;
-        left: 0px;
-    }
-    to{
-        opacity: 1;
-        left: 10px;
-    }
-}
-@keyframes box-anim3{
-    from{
-        opacity: 0;
-        top: 0px;
-    }
-    to{
-        opacity: 1;
-        top: 80px;
-
-    }
-}
-@keyframes box-anim4{
-    from{
-        opacity: 0;
-        right: 10px;
-    }
-    to{
-        opacity: 1;
-        right: 100px;
-
-    }
-}
-@keyframes box-anim5{
-    from{
-        opacity: 0;
-        bottom: 10px;;
-    }
-    to{
-        opacity: 1;
-        bottom: 50px;
-
-    }
-
-}
-@keyframes box-anim6{
-    from{
-        opacity: 0;
-        right: 5px;
-    }
-    to{
-        opacity: 1;
-        right: 20px;
-
-    }
-
-}
-@keyframes box-anim7{
-    from{
-        opacity: 0;
-        bottom: 5px;
-    }
-    to{
-        opacity: 1;
-        bottom: 20px;
-
-    }
-
-}
-@keyframes box-anim8{
-    from{
-        opacity: 0;
-        top:0;
-    }
-    to{
-        opacity: 1;
-        top: 10px;
-
-    }
-
-}
 @keyframes box-anim9{
     from{
         opacity: 0;
@@ -676,10 +493,3 @@
 
 
 }
-
-
-
-
-
-
-
