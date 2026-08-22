@@ -5,9 +5,11 @@
 }
 .A1{
     width: 100%;
-    height: 1400vh;
+    height: 1340vh;
     padding: 10px;
     background: linear-gradient(to bottom right, black, rgb(17, 17, 61), black);
+    display: flex;
+    flex-direction: column;
 }
 
 .nav-lgdevice{
@@ -156,22 +158,24 @@ span{
 
 .stories-cards1{
     width: 90%;
+    height: 420px;
     border-radius: 20px;
     background-color: rgb(20, 20, 20);
     position: relative;
     box-shadow:0px 0px 5px 0px rgb(48, 30, 119);
-    margin-bottom: 20px;
+    margin-bottom: 35px;
     transition: transform 0.3s ease, box-shadow 0.3s ease;
     
 }
 .sc1{
-    height: 420px;
+    height: 400px;
 }
 .sc2{
-    height: 420px;
+    height: 400px;
+    margin-bottom: 35px;
 }
 .sc3{
-    height: 470px;
+    height: 450px;
 }
 .stories-cards1:hover{
     border: 1px solid rgb(81, 81, 82);
@@ -458,19 +462,66 @@ i{
     color: black;
 
 }
-/* .feed-bx{
-    width: 100%;
-    height: 5%;
-    border: 1px solid white;
-    border-radius: 12px;
-    background-color: rgb(22, 22, 22);
-    margin-top: 15px;
-} */
 
-.footer{
-    width: 100%
+.trust-com{
+    width: 100%;
+    flex-grow: 1;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-decoration: underline;
+    margin-top: 20px;
 }
 
+footer{
+    width: 100%;
+    height: 150px;
+    background-color: rgb(32, 32, 32);
+    flex-grow: 1;
+}
+.trust-com-icons{
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: flex-end;
+    justify-content: space-evenly;
+
+}
+
+img{
+    width: 70px;
+    height: 80px;
+}
+.bottom-footer{
+    width: 100%;
+}
+.socio-icon{
+    width: 100%;
+    height: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 5px;
+
+}
+.rights{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.icon-footer{
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+#icon-ft{
+    width: 90px;
+    height: 60px;
+    margin-bottom: 10px;
+    margin-top: 5px;
+}
 
 
 @keyframes box-anim9{
