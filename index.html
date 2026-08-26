@@ -13,14 +13,6 @@
 </head>
 <body>
     <div class="wlcm-sc">
-        <div class="box1"></div>
-        <div class="box2"></div>
-        <div class="box3"></div>
-        <div class="box4"></div>
-        <div class="box5"></div>
-        <div class="box6"></div>
-        <div class="box7"></div>
-        <div class="box8"></div>
         <div class="box9">
             <img style="width: 180px; height: 100px; margin-bottom: 10px;" src="images/icon.png" alt="">
             <h3 style="color: white; font-size: 15px; font-style: normal; margin-bottom: 10px;">Discover the Game</h3>
@@ -28,26 +20,47 @@
         </div>
     </div>
     <div class="A1">
-        <div class="nav-lgdevice">
-            <nav class="navigation-lgdevice">
-                <div>
-                    <a style="margin-right: 10px;" href="#"><img src="images/icon.jpg" width="90px" alt=""></a>
-                </div>
-                <ul class="navigation-1items">
-                    <li><a class="top-links" href="#">Home</a></li>
-                    <li><a class="top-links" href="#">About Us</a></li>
-                    <li><a class="top-links" href="#">Categories</a></li>
-                    <li><a class="top-links" href="#">blog</a></li>
-                    <li><a class="top-links" href="#">Contact us</a></li>
-                </ul>
-                <div>
-                    <input class="sear" type="search" placeholder="Search...">
-                    <i style="color: white;" class="fa-solid fa-magnifying-glass"></i>
-                    <i style="color: white;" class="fa-solid fa-circle-user fa-2xl"></i>
-                </div>
-            </nav>
+        <!-- just in case nav -->
+         <nav class="navbar navbar-expand-lg navbar-light bg-dark jic-nav">
+            <a class="navbar-brand icon-nav" href="index.html">
+            </a>
+            <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+              <span class="navbar-toggler-icon"></span>
+            </button>
 
-        </div>
+            <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                <ul class="navbar-nav mr-auto">
+                    <li class="nav-item active">
+                      <a class="nav-link" href="index.html">Home <span class="sr-only">(current)</span></a>
+                    </li>
+                    <li class="nav-item active">
+                      <a class="nav-link" href="index.html">About Us<span class="sr-only">(current)</span></a>
+                    </li>
+                    <li class="nav-item active">
+                      <a class="nav-link" href="index.html">Categories<span class="sr-only">(current)</span></a>
+                    </li>
+                    <li class="nav-item active">
+                      <a class="nav-link" href="index.html">Blogs<span class="sr-only">(current)</span></a>
+                    </li>
+                    <li class="nav-item dropdown">
+                      <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                        Contact
+                      </a>
+                        <div class="dropdown-menu" aria-labelledby="navbarDropdown">
+                          <a class="dropdown-item" href="#">Action</a>
+                          <a class="dropdown-item" href="#">Another action</a>
+                          <div class="dropdown-divider"></div>
+                          <a class="dropdown-item" href="#">Something else here</a>
+                        </div>
+                    </li>
+                </ul>
+                <form class="form-inline my-2 my-lg-0">
+                    <input class="form-control mr-sm-2" type="search" placeholder="Search" aria-label="Search">
+                    <button class="btn btn-outline-success my-2 my-sm-0" type="submit">Search</button>
+                </form>
+            </div>
+        </nav>
+         <!-- nav bar for small screen -->
         <div class="fixed-top">
             <div class="collapse" id="navbarToggleExternalContent">
                 <div class="bg-dark top">
@@ -75,15 +88,15 @@
                 </button>
             </nav>
         </div>
+        <!-- intro for small device -->
         <div class="introo-small">
             <div class="intro-text">
                 <h1 class="intro-text-title">Ready, PLAYER ONE?</h1>
                 <p><span>Welcome to Purrfect Play</span>—built by gamers, for gamers. Honest reviews, hot takes, and everything worth playing, all in one place. Your ultimate hub for sharp takes, hidden indie gems, and epic breakdowns. Grab a controller and dive into the action.</p>
             </div>
-            <div class="intro-img"></div>
         </div>
         <p class="carousel-texts"><span class="carousel-texts-title">TRENDING PLAY </span><br> Your daily preview of what’s hot, what’s hit, and what’s worth playing.<p>
-        <div style="margin-top: 10px;border-radius: 40px;" id="carouselExampleIndicators" class="carousel slide" data-ride="carousel" data-interval="3000">
+        <div style="margin-top: 5px;border-radius: 40px; padding-left: 20px; padding-right: 20px;" id="carouselExampleIndicators" class="carousel slide" data-ride="carousel" data-interval="3000">
             <ol class="carousel-indicators">
                 <li data-target="#carouselExampleIndicators" data-slide-to="0" class="active"></li>
                 <li data-target="#carouselExampleIndicators" data-slide-to="1"></li>
@@ -109,6 +122,7 @@
                 <span class="sr-only">Next</span>
             </a>
         </div>
+        <!-- stories/blogs -->
         <p class="carousel-texts"><span class="carousel-texts-title"> CURATED STORIES </span><br> Freshly spawned articles, game reviews, and tactics updated daily.<p></p>
         <div class="stories-cards">
             <div class="stories-cards1 sc1">
@@ -124,7 +138,10 @@
                         <div style="border: 1px solid rgb(160, 160, 160); border-radius: 50px; width: 40px; height: 40px; background-image: url(images/بروفايل.jpg); background-size: cover; margin-left: 10px; margin-top: 5px;"></div>
                         <h6 style="margin-left: 10px ; padding-top: 5px; color: white;">Rohini Rangari</h6>
                     </div>
-                    <p style="font-size: 15px; text-align: justify;">Horror stories make the invisible visible. The horror in the story of “Silent Hill F” flowers from shame, silence.... </p>
+                    <p style="font-size: 15px; text-align: justify;" class="card-information-p">Horror stories make the invisible visible. The horror in the story of “Silent Hill F” flowers from shame, silence.... </p>
+                    <div style="margin-left: 20px; margin-right: 20px; margin-bottom: 20px;" class="Sc1-span">
+                    <span style="color: white; font-size: 17px; text-align: justify;">Horror stories make the invisible visible. The horror in the story of “Silent Hill F” flowers from shame, silence.... </span>
+                    </div>
                     <a class="readmore" href="#"> Read More</a>
                     <div class="like-dislike-icons">
                         <i style="color: white; margin-right: 5px;" class="fa-regular fa-thumbs-up fa-lg"></i>
@@ -146,7 +163,10 @@
                         <div style="border: 1px solid rgb(160, 160, 160); border-radius: 50px; width: 40px; height: 40px; background-image: url(images/بروفايل.jpg); background-size: cover; margin-left: 10px; margin-top: 5px;"></div>
                         <h6 style="margin-left: 10px ; padding-top: 5px; color: white;">Happy Singh</h6>
                     </div>
-                    <p style="font-size: 15px; text-align: justify;">There’s something strange about the Vanderbooms; you just can’t put your finger on what it is. Aldous, your new employer.... </p>
+                    <p style="font-size: 15px; text-align: justify;" class="sol-rev">There’s something strange about the Vanderbooms; you just can’t put your finger on what it is. Aldous, your new employer.... </p>
+                    <div style="margin-left: 20px; margin-right: 20px; margin-bottom: 20px;" class="Sc2-span">
+                        <span style="color: white; font-size: 17px; text-align: justify;">There’s something strange about the Vanderbooms; you just can’t put your finger on what it is. Aldous, your new employer....</span>
+                    </div>
                     <a class="readmore" href="#"> Read More</a>
                     <div class="like-dislike-icons">
                         <i style="color: white; margin-right: 5px;" class="fa-regular fa-thumbs-up fa-lg"></i>
@@ -167,7 +187,10 @@
                         <div style="border: 1px solid rgb(160, 160, 160); border-radius: 50px; width: 40px; height: 40px; background-image: url(images/بروفايل.jpg); background-size: cover; margin-left: 10px; margin-top: 5px;"></div>
                         <h6 style="margin-left: 10px ; padding-top: 5px; color: white;">Happy Singh</h6>
                     </div>
-                    <p style="font-size: 15px; text-align: justify;">Krafton has made accessible for PUBG Mobile fans, the Early Access to Battlegrounds Mobile India that is currently live on Google Play Store for players in India.</p>
+                    <p style="font-size: 15px; text-align: justify;" class="bgmi-card">Krafton has made accessible for PUBG Mobile fans, the Early Access to Battlegrounds Mobile India that is currently live on Google Play Store for players in India.</p>
+                    <div style="margin-left: 20px; margin-right: 20px; margin-bottom: 20px;" class="Sc3-span">
+                        <span style="color: white; font-size: 17px; text-align: justify;">Krafton has made accessible for PUBG Mobile fans, the Early Access to Battlegrounds Mobile India that is currently live on Google Play Store for....</span>
+                    </div>
                     <a class="readmore" href="#"> Read More</a>
                     <div class="like-dislike-icons">
                         <i style="color: white; margin-right: 5px;" class="fa-regular fa-thumbs-up fa-lg"></i>
@@ -181,63 +204,59 @@
             </div>
         </div>
         <br>
-        <span style="padding-left: 10px;" class="carousel-texts-title">THE HYPE LIST</span>
+        <!-- games  -->
+        <span style="padding-left: 10px;" class="carousel-texts-title game-titles">THE HYPE LIST</span>
         <p style="font-size: 17px;" class="carousel-texts">Whether you crave fast-paced action, immersive story-driven adventures, or terrifying horror tales, you’ll find it all right here. We track down top titles across every genre so you spend less time searching and more time playing. Dive in and find your next game now!</p>
-        <span style="padding-left: 10px;" class="carousel-texts-title">Action Games</span>
+        <span style="padding-left: 10px;" class="carousel-texts-title game-titles">Action Games</span>
         <div class="game-card-sec">
             <a  class="game-cards" href="#">
                 <div style="margin-left: 5px ; margin-right: 5px;">
                     <h3 style="font-weight: 700; color: white; text-align: center; margin-bottom: 0;">Rules of Survival</h3>
-                    <div style="text-align: center; margin-bottom: 0;" class="ratings">
+                    <div style="text-align: center; margin-bottom: 10px;" class="ratings">
                         <i>Ratings</i>
                         <i style="color: yellow;" class="fa-solid fa-star"></i>
                         <i>4.5/5</i>
                     </div>
-                    <p style="font-size: 20px; text-align: center; margin-bottom: 0; margin-top: 0;" class="carousel-texts">A retired battle royal legacy</p>
                 </div>
             </a>
             <a  class="game-cards gc1" href="#">
                 <div style="margin-left: 5px ; margin-right: 5px;">
                     <h3 style="font-weight: 700; color: white; text-align: center; margin-bottom: 0;">ROBLOX</h3>
-                    <div style="text-align: center; margin-bottom: 0;" class="ratings">
+                    <div style="text-align: center; margin-bottom: 10px;" class="ratings">
                         <i>Ratings</i>
                         <i style="color: yellow;" class="fa-solid fa-star"></i>
                         <i>4.8/5</i>
                     </div>
-                    <p style="font-size: 20px; text-align: center; margin-bottom: 0; margin-top: 0;" class="carousel-texts">Dive into adventures</p>
                 </div>
             </a>
             <a  class="game-cards gc2" href="#">
                 <div style="margin-left: 5px ; margin-right: 5px;">
                     <h3 style="font-weight: 700; color: white; text-align: center; margin-bottom: 0;">Call of Duty®: <br> BLACK OPS6</h3>
-                    <div style="text-align: center; margin-bottom: 0;" class="ratings">
+                    <div style="text-align: center; margin-bottom: 10px;" class="ratings">
                         <i>Ratings</i>
                         <i style="color: yellow;" class="fa-solid fa-star"></i>
                         <i>4.9/5</i>
                     </div>
-                    <p style="font-size: 20px; text-align: center; margin-bottom: 0; margin-top: 0;" class="carousel-texts">Forced to go rogue</p>
                 </div>
             </a>
             <a  class="game-cards gc3" href="#">
                 <div style="margin-left: 5px ; margin-right: 5px;">
                     <h3 style="font-weight: 700; color: white; text-align: center; margin-bottom: 0;">CODE OF WAR</h3>
-                    <div style="text-align: center; margin-bottom: 0;" class="ratings">
+                    <div style="text-align: center; margin-bottom: 10px;" class="ratings">
                         <i>Ratings</i>
                         <i style="color: yellow;" class="fa-solid fa-star"></i>
                         <i>4.4/5</i>
                     </div>
-                    <p style="font-size: 20px; text-align: center; margin-bottom: 0; margin-top: 0;" class="carousel-texts">Dynamic battles, furious action</p>
                 </div>
             </a>
             <a  class="game-cards gc4" href="#">
                 <div style="margin-left: 5px ; margin-right: 5px;">
                     <h3 style="font-weight: 700; color: white; text-align: center; margin-bottom: 0;">Raid: <br> Shadow Legends</h3>
-                    <div style="text-align: center; margin-bottom: 0;" class="ratings">
+                    <div style="text-align: center; margin-bottom: 10px;" class="ratings">
                         <i>Ratings</i>
                         <i style="color: yellow;" class="fa-solid fa-star"></i>
                         <i>3.9/5</i>
                     </div>
-                    <p style="font-size: 20px; text-align: center; margin-bottom: 0; margin-top: 0;" class="carousel-texts">Immerse yourself </p>
                 </div>
             </a>
         
@@ -253,71 +272,55 @@
             <a  class="game-cards Rc1" href="#">
                 <div style="margin-left: 5px ; margin-right: 5px;">
                     <h3 style="font-weight: 700; color: white; text-align: center; margin-bottom: 0;">Asphalt Legends</h3>
-                    <div style="text-align: center; margin-bottom: 0;" class="ratings">
+                    <div style="text-align: center; margin-bottom: 10px;" class="ratings">
                         <i>Ratings</i>
                         <i style="color: yellow;" class="fa-solid fa-star"></i>
                         <i>4.9/5</i>
                     </div>
-                    <p style="font-size: 20px; text-align: center; margin-bottom: 0; margin-top: 0;" class="carousel-texts">Spark your competitive soul</p>
                 </div>
             </a>
 
             <a  class="game-cards Rc2" href="#">
                 <div style="margin-left: 5px ; margin-right: 5px;">
                     <h3 style="font-weight: 700; color: white; text-align: center; margin-bottom: 0;">Forza Horizon 6</h3>
-                    <div style="text-align: center; margin-bottom: 0;" class="ratings">
+                    <div style="text-align: center; margin-bottom: 10px;" class="ratings">
                         <i>Ratings</i>
                         <i style="color: yellow;" class="fa-solid fa-star"></i>
                         <i>4.3/5</i>
                     </div>
-                    <p style="font-size: 20px; text-align: center; margin-bottom: 0; margin-top: 0;" class="carousel-texts">racing Legend at the Horizon</p>
                 </div>
             </a>
 
             <a  class="game-cards Rc3" href="#">
                 <div style="margin-left: 5px ; margin-right: 5px;">
                     <h3 style="font-weight: 700; color: white; text-align: center; margin-bottom: 0;">RIDE 6</h3>
-                    <div style="text-align: center; margin-bottom: 0;" class="ratings">
+                    <div style="text-align: center; margin-bottom: 10px;" class="ratings">
                         <i>Ratings</i>
                         <i style="color: yellow;" class="fa-solid fa-star"></i>
                         <i>4.3/5</i>
                     </div>
-                    <p style="font-size: 20px; text-align: center; margin-bottom: 0; margin-top: 0;" class="carousel-texts">Live the RIDE</p>
                 </div>
             </a>
 
             <a  class="game-cards Rc4" href="#">
                 <div style="margin-left: 5px ; margin-right: 5px;">
                     <h3 style="font-weight: 700; color: white; text-align: center; margin-bottom: 0;">Asphalt 8: <br> Airborne</h3>
-                    <div style="text-align: center; margin-bottom: 0;" class="ratings">
+                    <div style="text-align: center; margin-bottom: 10px;" class="ratings">
                         <i>Ratings</i>
                         <i style="color: yellow;" class="fa-solid fa-star"></i>
                         <i>4.9/5</i>
                     </div>
-                    <p style="font-size: 20px; text-align: center; margin-bottom: 0; margin-top: 0;" class="carousel-texts">LEAVE GRAVITY IN THE DUST!</p>
                 </div>
             </a>
 
             <a  class="game-cards Rc5" href="#">
                 <div style="margin-left: 5px ; margin-right: 5px;">
                     <h3 style="font-weight: 700; color: white; text-align: center; margin-bottom: 0;">Nitro Nation<br> Drag & Drift</h3>
-                    <div style="text-align: center; margin-bottom: 0;" class="ratings">
+                    <div style="text-align: center; margin-bottom: 10px;" class="ratings">
                         <i>Ratings</i>
                         <i style="color: yellow;" class="fa-solid fa-star"></i>
                         <i>4.6/5</i>
                     </div>
-                    <p style="font-size: 20px; text-align: center; margin-bottom: 0; margin-top: 0;" class="carousel-texts">Supercars and Exotics? </p>
-                </div>
-            </a>
-            <a  class="game-cards Rc6" href="#">
-                <div style="margin-left: 5px ; margin-right: 5px;">
-                    <h3 style="font-weight: 700; color: white; text-align: center; margin-bottom: 0;">Drift Legends 2</h3>
-                    <div style="text-align: center; margin-bottom: 0;" class="ratings">
-                        <i>Ratings</i>
-                        <i style="color: yellow;" class="fa-solid fa-star"></i>
-                        <i>4.6/5</i>
-                    </div>
-                    <p style="font-size: 20px; text-align: center; margin-bottom: 0; margin-top: 0;" class="carousel-texts">Master the art of controlled chaos</p>
                 </div>
             </a>
             <div class="view-all-sec">
@@ -332,71 +335,55 @@
             <a  class="game-cards hr1" href="#">
                 <div style="margin-left: 5px ; margin-right: 5px;">
                     <h3 style="font-weight: 700; color: white; text-align: center; margin-bottom: 0;">Visage</h3>
-                    <div style="text-align: center; margin-bottom: 0;" class="ratings">
+                    <div style="text-align: center; margin-bottom: 10px;" class="ratings">
                         <i>Ratings</i>
                         <i style="color: yellow;" class="fa-solid fa-star"></i>
                         <i>4.5/5</i>
                     </div>
-                    <p style="font-size: 20px; text-align: center; margin-bottom: 0; margin-top: 0;" class="carousel-texts">Get lost in endless mazes</p>
                 </div>
             </a>
 
             <a  class="game-cards hr2" href="#">
                 <div style="margin-left: 5px ; margin-right: 5px;">
                     <h3 style="font-weight: 700; color: white; text-align: center; margin-bottom: 0;">choo choo charles</h3>
-                    <div style="text-align: center; margin-bottom: 0;" class="ratings">
+                    <div style="text-align: center; margin-bottom: 10px;" class="ratings">
                         <i>Ratings</i>
                         <i style="color: yellow;" class="fa-solid fa-star"></i>
                         <i>4.3/5</i>
                     </div>
-                    <p style="font-size: 20px; text-align: center; margin-bottom: 0; margin-top: 0;" class="carousel-texts">Fight Charles to the death</p>
                 </div>
             </a>
 
             <a  class="game-cards hr3" href="#">
                 <div style="margin-left: 5px ; margin-right: 5px;">
                     <h3 style="font-weight: 700; color: white; text-align: center; margin-bottom: 0;">Poppy-Playtime <br> Chapter 3</h3>
-                    <div style="text-align: center; margin-bottom: 0;" class="ratings">
+                    <div style="text-align: center; margin-bottom: 10px;" class="ratings">
                         <i>Ratings</i>
                         <i style="color: yellow;" class="fa-solid fa-star"></i>
                         <i>4.9/5</i>
                     </div>
-                    <p style="font-size: 20px; text-align: center; margin-bottom: 0; margin-top: 0;" class="carousel-texts">Answers will finally be revealed</p>
                 </div>
             </a>
 
             <a  class="game-cards hr4" href="#">
                 <div style="margin-left: 5px ; margin-right: 5px;">
                     <h3 style="font-weight: 700; color: white; text-align: center; margin-bottom: 0;">Phasmophobia</h3>
-                    <div style="text-align: center; margin-bottom: 0;" class="ratings">
+                    <div style="text-align: center; margin-bottom: 10px;" class="ratings">
                         <i>Ratings</i>
                         <i style="color: yellow;" class="fa-solid fa-star"></i>
                         <i>5.0/5</i>
                     </div>
-                    <p style="font-size: 20px; text-align: center; margin-bottom: 0; margin-top: 0;" class="carousel-texts">The dead are listening</p>
                 </div>
             </a>
 
             <a  class="game-cards hr5" href="#">
                 <div style="margin-left: 5px ; margin-right: 5px;">
                     <h3 style="font-weight: 700; color: white; text-align: center; margin-bottom: 0;">Bendy and<br>The dark Revival</h3>
-                    <div style="text-align: center; margin-bottom: 0;" class="ratings">
+                    <div style="text-align: center; margin-bottom: 10px;" class="ratings">
                         <i>Ratings</i>
                         <i style="color: yellow;" class="fa-solid fa-star"></i>
                         <i>4.4/5</i>
                     </div>
-                    <p style="font-size: 20px; text-align: center; margin-bottom: 0; margin-top: 0;" class="carousel-texts">Escape the studio </p>
-                </div>
-            </a>
-            <a  class="game-cards hr6" href="#">
-                <div style="margin-left: 5px ; margin-right: 5px;">
-                    <h3 style="font-weight: 700; color: white; text-align: center; margin-bottom: 0;">Fear of Spotlight</h3>
-                    <div style="text-align: center; margin-bottom: 0;" class="ratings">
-                        <i>Ratings</i>
-                        <i style="color: yellow;" class="fa-solid fa-star"></i>
-                        <i>4.6/5</i>
-                    </div>
-                    <p style="font-size: 20px; text-align: center; margin-bottom: 0; margin-top: 0;" class="carousel-texts">Sunnyside High has a dark history</p>
                 </div>
             </a>
             <div class="view-all-sec">
@@ -409,10 +396,49 @@
            <i style="color: rgb(120, 135, 238);" class="fa-brands fa-discord fa-2xl fa-bounce sz"></i>
            <div class="server-join-text">
                <h4 style="font-weight: 200; color: white;">Join the <span style="font-weight: 700; color: white;">Purrfect-Squad!</span></h4>
-               <p style="font-size: 16px; margin-bottom: 0;">50k+ gamers. Hot takes. Zero fluffs</p>
+               <p class="server-join-Subtext">50k+ gamers. Hot takes. Zero fluffs</p>
                <a class="discord-btn" href="#">Join Our Discord</a>
            </div> 
         </div>
+        <!-- featured news -->
+        <span style="padding-left: 5px; margin-top: 10px;" class="carousel-texts-title FN-text">Featured News</span>
+        <div class="featured-news">
+            <div class="card fn1">
+                <img src="images/dragonball-xenoverse3.jpg" class="card-img-top Fn-img" alt="...">
+                <div class="card-body">
+                  <h5 class="card-title">Dragon Ball XENOVERSE 3</h5>
+                  <span style="color: black; font-weight: 500;" class="card-text">DRAGON BALL XENOVERSE 3 is Coming to a City Near You in the Official Road Tour</span><br><br>
+                  <span style="color: black;" class="card-subtext">The game’s official Road Tour launching in July. Fans will be able to get hands-on play with the exciting long-awaited sequel, experiencing a completely new DRAGON BALL story. </span><br>
+                  <a style="background-color: rgb(12, 12, 78); border: 0;" href="#" class="btn btn-primary">More Details</a>
+                </div>
+            </div>
+            <div class="card">
+                <img src="images/The Blood of Dawnwalker .jpg" class="card-img-top Fn-img" alt="...">
+                <div class="card-body">
+                  <h5 class="card-title">The-Blood-Of-Dawnwalker</h5>
+                  <span style="color: black; font-weight: 500;" class="card-text">Rebel Wolves Unveils More of the Blood of Dawnwalker and Teases the Future of the Dawnwalker Saga</span><br><br>
+                  <span style="color: black;" class="card-subtext">The Blood of Dawnwalker- a dark fantasy open-world action RPG that will launch on PlayStation®5, XBOX Series X|S, and PC on September 3.</span><br>
+                  <a style="background-color: rgb(12, 12, 78); border: 0;" href="#" class="btn btn-primary">More Details</a>
+                </div>
+            </div>
+            <div class="card">
+                <img src="images/gundam-rougue-orbit.jpg" class="card-img-top Fn-img" alt="...">
+                <div class="card-body">
+                  <h5 class="card-title">Gundam Rogue-Orbit</h5>
+                  <span style="color: black; font-weight: 500;" class="card-text">Suit Up for Humanity in Bandai Namco’s High-octane Sci-fi Action Game GUNDAM ROGUE ORBIT Launching in 2027</span><br><br>
+                  <span style="color: black;" class="card-subtext"> GUNDAM ROGUE ORBIT is slated to launch in 2027 on PlayStation®5, XBOX Series X|S, and PC via Steam®. Check out the official website for more details at gundamrogueorbit.com. </span> <br>
+                  <a style="background-color: rgb(12, 12, 78); border: 0;" href="#" class="btn btn-primary">More Details</a>
+                </div>
+            </div>
+        </div>
+        <div class="view-all-sec">
+            <a style="color: white; padding: 5px;" href="#">View all</a>
+            <i style="color: white; padding: 5px; padding-top: 10px;" class="fa-solid fa-circle-arrow-right"></i>
+        </div>
+
+
+
+
         <div class="trust-com">
             <span style="padding-left: 10px;" class="carousel-texts-title">Trusted By</span>
             <div class="trust-com-icons">
