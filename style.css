@@ -5,7 +5,7 @@
 }
 .A1{
     width: 100%;
-    height: 1340vh;
+    height: 1450vh;
     padding: 10px;
     background: linear-gradient(to bottom right, black, rgb(17, 17, 61), black);
     display: flex;
@@ -501,8 +501,8 @@ i{
 footer{
     width: 100%;
     height: 150px;
-    background-color: rgb(32, 32, 32);
     flex-grow: 1;
+    background-color: rgb(32, 32, 32);
     border-top: 1px solid black ;
 }
 .trust-com-icons{
@@ -572,6 +572,7 @@ img{
         padding: 0;
         height: 750vh;
     }
+
     .fixed-top{
         display: none;
     }
@@ -740,6 +741,345 @@ img{
     .card:hover{
         transform: translateY(-8px) scale(1.03);
     }
+    .rights-reserved-text{
+        padding: 0;
+    }
+    /* about us page */
+
+    .aboutus-wlcm{
+        width: 100%;
+        height: 12%;
+        background: url(images/aboutus.png);
+        background-size: cover;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        box-shadow: 0px 20px 30px black;
+        
+    }
+    .aboutus-wlcm-title{
+        font-size: 45px;
+        font-family: Haettenschweiler;
+        color: rgb(72, 89, 145);
+        text-shadow: 0px 0px 10px black 10px;
+        margin: 0;
+        padding: 0;
+        position: absolute;
+        top: 60px;
+        animation-name: about-us;
+        animation-duration: 2s;
+    }
+    .aboutus-wlcm-title2{
+        font-size: 45px;
+        font-family: Haettenschweiler;
+        color: rgb(72, 89, 145);
+        text-shadow: 0px 0px 20px rgb(255, 255, 255) 10px;
+        margin: 0;
+        padding: 0;
+        top: 250px;
+        position: absolute;
+        animation-name: about-us;
+        animation-duration: 2s;
+    }
+    .aboutus-wlcm-m-title{
+        font-size: 140px;
+        color: white;
+        font-family: Impact, Haettenschweiler;
+        margin: 0;
+        padding: 0;
+        position: absolute;
+        top: 105px;
+        animation-name: about-us;
+        animation-duration: 2s;
+    }
+    .who-we-are{
+        width: 100%;
+        height: 9%;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        position: relative;
+        background: linear-gradient(to bottom right, rgb(0, 0, 54), black, black, black);
+        box-shadow: 0px 20px 30px black;
+        
+    }
+    .who-we-are-img{
+        width: 40%;
+        height: 700px;
+        border-top-left-radius: 50px;
+        border-bottom-left-radius: 50px;
+        position: absolute;
+        right: 0;
+    }
+    .who-we-are-details{
+        position: absolute;
+        left: 30px;
+    }
+    .who-we-are-details-ttitle{
+        color: white;
+        font-size: 60px;
+    }
+    .who-we-are-details-para{
+        padding-right: 650px;
+        font-size: 22px;
+        margin-top:20px ;
+    }
+    .What-we-do{
+        margin-top: 80px;
+        width: 100%;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+    .What-we-do-cards{
+        width: 100%;
+        height: 600px;
+        display: flex;
+        justify-content: space-evenly;
+        position: relative;
+    }
+    .What-we-do-cards-game{
+        width: 25%;
+        height: 80%;
+        border-radius: 40px;
+        margin-top: 20px;
+        position: absolute;
+        border: 1px solid rgb(53, 53, 53);
+        transition: transform 0.3s ease-in;
+        display: flex;
+        flex-direction: column;
+        justify-content: flex-end;
+        align-items: center;
+    }
+    .wwdc1{
+        top: 80px;
+        left: 250px;
+        background: url(images/review-gamecard.jpg);
+        background-size: contain;
+        background-repeat: no-repeat;
+        background-position: top;
+        box-shadow: inset 0px -300px 20px black, 0px 0px 20px black;
+        padding: 18px;
+    }
+    .wwdc2{
+        z-index: 10;
+        background: url(images/game-card-information.jpg);
+        background-size: contain;
+        background-repeat: no-repeat;
+        background-position: top;
+        box-shadow: inset 0px -300px 20px black, 0px 0px 20px black;
+        padding: 18px;
+    }
+    .wwdc3{
+        top: 80px;
+        right: 250px;
+        background: url(images/gamenews.jpg);
+        background-size: contain;
+        background-repeat: no-repeat;
+        background-position: top;
+        box-shadow: inset 0px -300px 20px black, 0px 0px 20px black;
+        padding: 18px;
+    }
+    .What-we-do-cards-game:hover{
+        transform: translateY(-8px) scale(1.03);
+        z-index: 10;
+        box-shadow: inset 0px -330px 20px black;
+    }
+    .wwdc1:hover{
+        z-index: 20;
+    }
+    .wwdc1-title{
+        font-size: 20px;
+        color: white;
+        text-align: center;
+        padding: 10px;
+    }
+    .wwdc1-para{
+        color: white;
+        font-size: 15px;
+        text-align: justify;
+        padding: 0;
+    }
+    .our-mission{
+        width: 100%;
+        height: 15%;
+        margin-top: 50px;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        padding: 20px;
+    }
+    .our-mission-sec{
+        width: 100%;
+        height: 100%;
+    }
+    .our-mission-para{
+        color: white;
+        font-size: 30px;
+        padding: 0;
+        text-align: center;
+        margin-top: 20px;
+    }
+    .our-mission-subtitle{
+        color: rgb(119, 93, 192);
+        font-size: 40px;
+        font-style: italic;
+        font-weight: 300;
+        text-align: center;
+    }
+    .our-mission-sec-cards{
+        width: 100%;
+        height: 500px;
+        display: flex;
+        justify-content: space-between;
+        padding: 20px;
+        padding-bottom: 0;
+    }
+    .img-ourmission{
+        width: 50%;
+        height: 100%;
+        background:url(images/ourmission-img-removebg-preview.png);
+        background-size: cover;
+    }
+    .our-mission-subtext-list{
+        color: white;
+        font-size: 30px;
+        padding: 20px;
+        margin-left: 250px;
+    }
+    .meet-the-team{
+        width: 100%;
+        height: 12%;
+        margin-top: 50px;
+    }
+    .meet-the-team-cards{
+        width: 100%;
+        height: 100%;
+        display: flex;
+        justify-content: space-evenly;
+        margin-top: 20px;
+    }
+    .meet-the-team-cards-person1{
+        width: 20%;
+        height: 400px;
+        padding: 10px;
+        background-color: white;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
+    .person1-photo{
+        width: 100%;
+        height: 250px;
+        background: url(images/ceo-photo.jpg);
+        background-size: cover;
+    }
+    .person2-photo{
+        background: url(images/Gaming\ Content\ Writer.jpg);
+        background-size: cover;
+        background-position: center;
+    }
+    .person3-photo{
+        background: url(images/content&design.jpg);
+        background-size: cover;
+        background-position: center;
+    
+    }
+    .profile{
+        margin-top: 10px;
+        display: flex;
+        align-items: center;
+    }
+    .person1-name{
+        font-size: 20px;
+        font-weight: 600;
+        padding-left: 15px;
+    }
+    .person1-role{
+        font-size: 15px;
+        font-weight: 400;
+        font-style: italic;
+        padding: 15px;
+        
+    }
+    .person1-description{
+        color: black;
+        font-size: 15px;
+        font-weight: 500;
+        text-align: center;
+    }
+    .contactus-sec{
+        width: 100%;
+        height: 15%;
+        margin-bottom: 50px;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
+    .contactus-box{
+        width: 90%;
+        height: 80%;
+        background-color: rgb(43, 43, 43);
+        border-radius: 30px;
+        display: flex;
+    }
+    .contactus-box-left{
+        width: 40%;
+        height: 100%;
+        display: flex;
+        flex-direction: column;
+        justify-content: space-evenly;
+        align-items: flex-start;
+        padding: 50px;
+        padding-top: 0;
+    }
+    .contactus-para{
+        padding: 0;
+        padding-left: 100px;
+        padding-bottom: 0;
+    }
+    .contactus-mail{
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        margin-top: 0;
+    }
+    .contactus-box-right{
+        width: 60%;
+        height: 100%;
+        padding: 20px;
+    }
+    .form-box{
+        width: 100%;
+        height: 100%;
+        background-color: white;
+        border-radius: 30px;
+        padding: 20px;
+    }
+    .form-box-para{
+        color: rgb(2, 2, 44);
+        text-align: center;
+        padding: 0;
+        font-size: 30px;
+        font-weight: bolder;
+    }
+    .form-inputs{
+        color: black;
+        font-size: 20px;
+        font-weight: bolder;
+    }
+    .input-field{
+        padding: 10px;
+        padding-right: 100px;
+        border-radius: 50px;
+        border: 0.5px solid grey;
+    }
+    .sjc{
+        margin-bottom: 50px;
+    }
+    
 }
 
 @media (min-width:1376px){
@@ -765,96 +1105,7 @@ img{
         font-size: 38px;
     }
 }
-@keyframes box-anim{
-    from{
-        opacity: 0;
-        left: 10px;
-    }
-    to{
-        opacity: 1;
-        left: 60px;
-    }
-}
-@keyframes box-anim2{
-    from{
-        opacity: 0;
-        left: 0px;
-    }
-    to{
-        opacity: 1;
-        left: 10px;
-    }
-}
-@keyframes box-anim3{
-    from{
-        opacity: 0;
-        top: 0px;
-    }
-    to{
-        opacity: 1;
-        top: 80px;
 
-    }
-}
-@keyframes box-anim4{
-    from{
-        opacity: 0;
-        right: 10px;
-    }
-    to{
-        opacity: 1;
-        right: 100px;
-
-    }
-}
-@keyframes box-anim5{
-    from{
-        opacity: 0;
-        bottom: 10px;;
-    }
-    to{
-        opacity: 1;
-        bottom: 50px;
-
-    }
-
-}
-@keyframes box-anim6{
-    from{
-        opacity: 0;
-        right: 5px;
-    }
-    to{
-        opacity: 1;
-        right: 20px;
-
-    }
-
-}
-@keyframes box-anim7{
-    from{
-        opacity: 0;
-        bottom: 5px;
-    }
-    to{
-        opacity: 1;
-        bottom: 20px;
-
-    }
-
-}
-@keyframes box-anim8{
-    from{
-        opacity: 0;
-        top:0;
-    }
-    to{
-        opacity: 1;
-        top: 10px;
-
-    }
-
-}
 @keyframes box-anim9{
     from{
         opacity: 0;
@@ -873,7 +1124,14 @@ img{
         transform: translateY(-10px);
     }
 
-
+}
+@keyframes about-us {
+    from{
+        opacity: 0;
+    }
+    to{
+        opacity: 1;
+    }
 }
 
 
