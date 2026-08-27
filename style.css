@@ -5,7 +5,7 @@
 }
 .A1{
     width: 100%;
-    height: 1450vh;
+    height: 1650vh;
     padding: 10px;
     background: linear-gradient(to bottom right, black, rgb(17, 17, 61), black);
     display: flex;
@@ -93,7 +93,7 @@
     background-size:contain;
     background-position: bottom;
     background-repeat: no-repeat;
-    box-shadow: inset 0px 320px 50px 5px rgb(0, 0, 0);
+    box-shadow: inset 0px 370px 50px 5px rgb(0, 0, 0);
 
 }
 .intro-text{
@@ -738,13 +738,9 @@ img{
 }
 .our-mission-sec-cards{
     width: 100%;
-    height: 200px;
     display: flex;
     flex-direction: column;
-    justify-content: space-between;
-    padding: 20px;
-    padding-bottom: 0;
-    margin-bottom: 150px;
+    justify-content: space-evenly;
 }
 .img-ourmission{
     display: none;
@@ -756,6 +752,7 @@ img{
 }
 .meet-the-team{
     width: 100%;
+    padding: 20px;
 }
 
 .meet-the-team-cards{
@@ -763,6 +760,7 @@ img{
     margin-bottom: 20px;
     margin-top: 20px;
 }
+
 .meet-the-team-cards-person1{
     width: 100%;
     height: 500px;
@@ -773,6 +771,10 @@ img{
     justify-content: center;
     align-items: center;
     margin-bottom: 20px;
+    transition: transform 0.3s ease-in;
+}
+.meet-the-team-cards-person1:hover{
+    transform: translateY(-8px) scale(1.03);
 }
 .person1-photo{
     width: 100%;
@@ -876,7 +878,7 @@ img{
 @media (min-width:1184px){
     .A1{
         padding: 0;
-        height: 750vh;
+        height: 900vh;
     }
     .A2{
         height: 650vh;
@@ -1057,7 +1059,7 @@ img{
 
     .aboutus-wlcm{
         width: 100%;
-        height: 12%;
+        height: 18%;
         background: url(images/aboutus.png);
         background-size: cover;
         display: flex;
@@ -1215,7 +1217,6 @@ img{
     }
     .our-mission-sec{
         width: 100%;
-        height: 100%;
     }
     .our-mission-para{
         color: white;
@@ -1233,21 +1234,17 @@ img{
     }
     .our-mission-sec-cards{
         width: 100%;
-        height: 500px;
         display: flex;
-        justify-content: space-between;
-        padding: 20px;
-        padding-bottom: 0;
+        flex-direction: row;
+        justify-content: space-evenly;
     }
     .our-mission-subtext-list{
         color: white;
         font-size: 30px;
         text-align: center;
-        padding-right: 80px;
     }
     .meet-the-team{
         width: 100%;
-        margin-top: 50px;
     }
     .meet-the-team-cards{
         width: 100%;
@@ -1282,6 +1279,11 @@ img{
         background-size: cover;
         background-position: center;
     
+    }
+    .person4-photo{
+        background: url(images/andrew.jpg);
+        background-size: cover;
+        background-position: center;
     }
     .profile{
         margin-top: 10px;
