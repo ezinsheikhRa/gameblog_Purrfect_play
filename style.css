@@ -878,6 +878,257 @@ img{
     margin-bottom: 50px;
 }
 
+/* Categories page */
+
+.title-c{
+    width: 100%;
+    margin-top: 65px;
+    margin-bottom: 0;
+}
+.title-c-p{
+    font-size: 15px;
+    line-height: 18px;
+    padding: 5px;
+    text-align: justify;
+    color: rgb(146, 145, 145);
+}
+.categ-titles{
+    width: 100%;
+    display: flex;
+    overflow-x: scroll;
+    padding: 5px;
+}
+
+.box-ct{
+    width: fit-content;
+    height: 27px;
+    border-radius: 20px;
+    border: 1px solid white;
+    margin: 5px;
+    display:flex ;
+    justify-content: center;
+    align-items: center;
+}
+.box-ct-text{
+    font-size: 12px;
+    padding: 10px;
+    margin: 0;
+    text-align: center;
+
+}
+
+.categories-title-game{
+    font-size: 20px;
+    color: white !important
+}
+.ic-ct{
+    padding: 5px;
+    margin: 0;
+}
+
+
+/* latest games */
+
+.latest-game{
+    width: 100%;
+    display: flex;
+    overflow-x: scroll;
+    padding: 5px;
+    margin-left: 0;
+    padding-left:0 ;
+}
+.top-1{
+    width: 130px;
+    padding: 0;
+    display: flex;
+    align-items: flex-start;
+
+}
+.numbers-top{
+    font-size: 100px;
+    font-weight: 900;
+    color: rgb(0, 131, 192);
+    margin: 0;
+    padding: 0;
+}
+.lt-1{
+    width: 130px;
+    padding: 8px;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: center;
+}
+.lt-img{
+    width: 100%;
+    height: 110px;
+    border-radius: 25px;
+    border: 1px solid grey;
+}
+.let-img1{
+    background: url(images/Path\ of\ Exile\ 2.jpg);
+    background-size: cover;
+    background-position: center;
+}
+
+.ltimg2{
+    background: url(images/Mindcop.jpg);
+    background-size: cover;
+}
+.ltimg3{
+    background: url(images/showgunshowdown.jpg);
+    background-size: cover;
+}
+.ltimg4{
+    background: url(images/forhonor.jpg);
+    background-size: cover;
+}
+.ltimg5{
+    background: url(images/thebraves.jpg);
+    background-size: cover;
+}
+.ltimg6{
+    background: url(images/thefinals.jpg);
+    background-size: cover;
+}
+.ltimg7{
+    background: url(images/oncehuman.jpg);
+    background-size: cover;
+    background-position: center;
+}
+.ltimg8{
+    background: url(images/mechabellum.jpg);
+    background-size: cover;
+}
+.lt-text{
+    font-size: 15px;
+    font-weight: 500;
+    margin-top: 5px;
+    color: white;
+}
+.lt-subtext{
+    font-size: 10px;
+    color: rgb(170, 170, 170);
+    text-align: center;
+}
+
+/* top games */
+
+.tg1{
+    background: url(images/Fornite\ logo\ 2024.jpg);
+    background-size: cover;
+}
+.tg2{
+    background: url(images/valorant.jpg);
+    background-size: cover;
+}
+.tg3{
+    background: url(images/leagueoflegends.jpg);
+    background-size: cover;
+}
+.tg4{
+    background: url(images/counterstrike2.jpg);
+    background-size: cover;
+    background-position: center;
+}
+.tg5{
+    background: url(images/dota-2.jpg);
+    background-size: cover;
+    background-position: center;
+}
+
+/* action games */
+.action-g1{
+    width: 200px;
+    border: none;
+}
+.ag1{
+    background: url(images/tekken3.jpg);
+    background-size: cover;
+}
+.ag2{
+    background: url(images/freefiremax.jpg);
+    background-size: cover;
+}
+.ag3{
+    background: url(images/GTA\ IV.jpg);
+    background-size: cover;
+}
+.ag4{
+    background: url(images/onestateRP.jpg);
+    background-size: cover;
+}
+.ag5{
+    background: url(images/amongus.jpg);
+    background-size: cover;
+}
+.ag6{
+    background: url(images/bgmi.jpg);
+    background-size: cover;
+}
+
+/* adventure games */
+
+
+.adventure1{
+    background: url(images/Minecraft\ _\ une\ mise\ à\ jour\ céleste\ en\ préparation\ chez\ Mojang\ _.jpg);
+    background-size: cover;
+    background-position: center;
+}
+.adventure2{
+    background: url(images/helloneighbour2.jpg);
+    background-size: cover;
+    background-position: center;
+}
+.adventure3{
+    background: url(images/Granny.jpg);
+    background-size: cover;
+    background-position: center;
+}
+.adventure4{
+    background: url(images/grannychapter2.jpg);
+    background-size: cover;
+    background-position: center;
+}
+.adventure5{
+    background: url(images/stumbleguys.jpg);
+    background-size: cover;
+    background-position: center;
+}
+.adventure6{
+    background: url(images/projectzomboid.jpg);
+    background-size: cover;
+    background-position: center;
+}
+
+/* arcade games */
+
+.arcade1{
+    background: url(images/subwaysurfers.jpg);
+    background-size: cover;
+}
+.arcade2{
+    background: url(images/angrybirds.jpg);
+    background-size: cover;
+}
+.arcade3{
+    background: url(images/plantvszombies.jpg);
+    background-size: cover;
+}
+.arcade4{
+    background: url(images/Geometry\ Dash.jpg);
+    background-size: cover;
+}
+.arcade5{
+    background: url(images/stickmanparty.jpg);
+    background-size: cover;
+}
+.arcade6{
+    background: url(images/dragonballlegends.jpg);
+    background-size: cover;
+}
+
+
 @media(min-width:390px){
     .A1{
         width: 100%;
@@ -1113,6 +1364,25 @@ img{
     .meet-the-team-cards-person1{
         height: 500px;
         width: 50%;
+    }
+
+    /* categories page */
+
+    .title-c-p{
+        font-size: 20px;
+        line-height: 30px;
+    }
+    .box-ct{
+        height: 40px;
+    }
+    .box-ct-text{
+        font-size: 15px;
+    }
+    .lt-1{
+        margin: 5px;
+    }
+    .lt-subtext{
+        font-size: 12px;
     }
 }
 @media(min-width:1024px){
@@ -1617,6 +1887,17 @@ img{
     .sjc{
         margin-bottom: 50px;
     }
+
+    /* categories page */
+
+
+    .title-c{
+        margin-top: 20px;
+        padding: 20px;
+    }
+    .box-ct-text{
+        font-size: 18px;
+    }
 }
 
 @media (min-width:1184px){
@@ -1684,9 +1965,9 @@ img{
         margin-bottom: 25px;
     }
     p{
-        font-size: 25px;
+        font-size: 23px;
         text-align: justify ;
-        padding-right: 500px;
+        padding-right: 700px;
     }
     span{
         font-size: 38px;
