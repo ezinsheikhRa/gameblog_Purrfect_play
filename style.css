@@ -5,17 +5,15 @@
 }
 .A1{
     width: 100%;
-    height: fit-content;
     padding: 10px;
-    background: linear-gradient(to bottom right, black, rgb(17, 17, 61), black);
+    background-color: rgb(0, 0, 24);
     display: flex;
     flex-direction: column;
 }
 .A2{
     width: 100%;
-    height: fit-content;
     padding: 10px;
-    background: linear-gradient(to bottom right, black, rgb(17, 17, 61), black);
+    background-color: rgb(0, 0, 24);
     display: flex;
     flex-direction: column;
 }
@@ -60,35 +58,12 @@
     padding-right: 100px;
 }
 
-.wlcm-sc{
-    width: 100%;
-    height: 680px;
-    background-image: url(images/Wallpaper\ gaming.jpg);
-    background-size: cover;
-    background-position: center;
-    border-bottom: 3px solid rgb(14, 0, 39);
-    display: flex;
-    justify-content: center;
-    align-items: center;
-}
-.box9{
-    width: 300px;
-    height: 350px;
-    background-color: rgba(0, 0, 0, 0.658);
-    border-radius: 30px;
-    box-shadow: 0px 0px 20px 0px rgb(45, 39, 70);
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    justify-content: center;
-    animation: box-anim99 2s ease-out, float-box 2s ease-in-out infinite;
-    opacity: 1;
-    
-}
 .introo-small{
     width: 100%;
-    height: 5%;
-    background: url(images/intro-img1.jpg);
+    height: 580px;
+    margin-top: 45px;
+    margin-bottom: 45px;
+    background: url(images/intro-img-home.jpg);
     background-size:contain;
     background-position: bottom;
     box-shadow: inset 0px 430px 50px 5px rgb(0, 0, 0);
@@ -1133,6 +1108,210 @@ img{
 .arcade6{
     background: url(images/dragonballlegends.jpg);
     background-size: cover;
+}
+
+/* blogpage */
+
+.blog-intro{
+    width: 100%;
+    height: 150px;
+    margin-top: 60px;
+    background: url(images/blog-introimg.png);
+    background-size: cover;
+    display: flex;
+    justify-content: center
+}
+.blog-intro-text{
+    width: 200px;
+    height: 100%;
+    padding: 5px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.bit-text1{
+    font-size: 13px;
+    text-align: center;
+    color: rgb(0, 99, 228);
+    font-weight: 700;
+    text-shadow: 10px 10px 50px black;
+}
+.bit-text2{
+    font-size: 18px;
+    text-align: center;
+    font-weight: 500;
+    color: white;
+    text-shadow: 10px 10px 100px black;
+}
+.bit-text3{
+    font-size: 13px;
+    text-align: center;
+    text-shadow: 20px 20px 300px black;
+    margin-bottom: 3px;
+}
+.review-search {
+    width: 100%;
+    padding: 7px 20px;
+    margin-top: 10px;
+    border: 1px solid #2b3150;
+    border-radius: 30px;
+    background: #11182b;
+    color: white;
+    font-size: 15px;
+}
+
+.review-search::placeholder {
+    color: #8b91aa;
+}
+
+.review-search:focus {
+    border-color: #8e5eff;
+    box-shadow: 0 0 12px rgba(139, 92, 246, 0.25);
+}
+.blog-sections{
+    width: 100%;
+    margin-top: 10px;
+}
+.section1-blog{
+    padding: 5px;
+    text-decoration: none !important;
+    padding-left: 10px;
+    padding-right: 10px;
+    border-radius: 8px;
+    text-align: center;
+    color: white !important;
+    font-size: 12px;
+    margin-right: 15px;
+    background-color: rgb(0, 0, 63);
+}
+.section1-blog:focus{
+    background-color: rgb(0, 0, 133);
+    text-decoration: none;
+    color: white;
+}
+.first-blog{
+    width: 100%;
+    height: 200px;
+    margin-top: 15px;
+    background: url(images/red\ dead\ redemnption.jpg);
+    background-size: cover;
+    border-radius: 20px;
+    padding: 20px;
+    box-shadow: 109px -83px 174px -69px rgba(0,0,0,1) inset;
+}
+.fb-label{
+    color: white;
+    font-size: 10px;
+    padding: 5px;
+    padding-left: 20px;
+    padding-right: 20px;
+    background-color: rgb(21, 21, 151);
+    border-radius: 8px;
+    text-align: center;
+}
+.fb-rev{
+    padding-left: 10px;
+    padding-right: 10px;
+    font-size: 9px;
+    background-color: rgb(175, 60, 175);
+    margin-bottom: 3px;
+}
+.fb-text{
+    font-size: 15px;
+    color: white;
+    font-weight: 500;
+}
+.fb-subtext{
+    font-size: 10px;
+    padding: 0;
+    text-align: left;
+}
+.fb-icon-label{
+    color: rgb(172, 171, 171);
+    font-size: 9px; 
+    margin-right: 7px;
+}
+.fb-icon-label-bt{
+    font-size: 10px;
+    color: white;
+    background-color: rgb(21, 21, 151);
+    padding: 5px;
+    padding-right: 10px;
+    padding-left: 10px;
+    border-radius: 8px;
+}
+.All-cont-1{
+    width: 100%;
+    height: 180px;
+    border-radius: 12px;
+    margin-top: 10px;
+    padding: 5px;
+    padding-right: 3px;
+    border: 1px solid rgb(27, 28, 54);
+    display: flex;
+    align-items: center;
+}
+.All-cont-1-img{
+    width: 290px;
+    height: 100%;
+    border-radius: 12px;
+    background: url(images/eldenring.jpg);
+    background-size: cover;
+    background-position: center;
+    padding: 5px;
+    display: flex;
+    align-items: flex-end;
+    margin-right: 10px;
+
+}
+.ac2img{
+    background: url(images/GTAV.jpg);
+    background-size: cover;
+    background-position: right;
+}
+.ac3img{
+    background: url(images/minecraftt.jpg);
+    background-size: cover;
+    background-position: center;
+}
+.ac4img{
+    background: url(images/thenun.jpg);
+    background-size: cover;
+    background-position: center;
+}
+.ac5img{
+    background: url(images/cyberpunk2077.jpg);
+    background-size: cover;
+}
+.ac6img{
+    background: url(images/The\ Last\ of\ Us.jpg);
+    background-size: cover;
+}
+.rev-allcont-text{
+    margin-bottom: 0;
+    font-size: 15px;
+    color: white;
+    padding: 0;
+}
+.fil-ic{
+    margin-top: 0;
+    display: flex;
+    justify-content: space-evenly;
+    padding: 0;
+}
+.fil{
+    margin-right: 15px;
+    margin-bottom: 0;
+}
+.fil-text{
+    margin-bottom: 5px;
+}
+.fb-rating{
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
 }
 
 
@@ -2472,7 +2651,7 @@ img{
         overflow-x: hidden;
     }
     .lt-1{
-        width: 210px;
+        width: 200px;
         height: 310px;
     }
     .latest-game-1024{
