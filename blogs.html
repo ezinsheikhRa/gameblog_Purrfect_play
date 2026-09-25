@@ -8,6 +8,8 @@
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@4.5.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-ho+j7jyWK8fNQe+A12Hb8AhRq26LrZ/JpcUGGOn+Y7RsweNrtN/tE3MoK7ZeZDyx" crossorigin="anonymous"></script>
     <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.5.3/dist/css/bootstrap.min.css" integrity="sha384-TX8t27EcRE3e/ihU7zmQxVncDAy5uIKz4rEkgIXeMed4M0jlfIDPvg6uqKI2xXr2" crossorigin="anonymous">
     <script src="https://kit.fontawesome.com/49b7f4e6c4.js" crossorigin="anonymous"></script>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.13.1/font/bootstrap-icons.min.css">
+
     <link rel="stylesheet" href="style.css">
     <title>Purrfect-play</title>
 </head>
@@ -85,10 +87,16 @@
         <div class="blog-intro">
             <div class="blog-intro-text">
                 <span class="bit-text1">GAME BLOG</span>
-                <span class="bit-text2">Read, Share, Be part <br> of the game</span>
+                <span class="bit-text2">Read, Share, Be part of the game</span>
                 <span class="bit-text3">Real Playes. Honest Opinions.<br> Unforgettable Stories</span>
-                <i style="color: white;" class="fa-solid fa-gamepad fa-xl"></i>
+                <i style="color: white;" class="fa-solid fa-gamepad fa-xl ic-console"></i>
             </div>
+        </div>
+        <div class="write-blog-cont wbc">
+            <h4 style="color: white; text-align: center;">You can share with us!!</h4>
+            <h5 style="color: white; text-align: center; margin-bottom: 10px;">Share Your stories..</h5>
+            <a class="createblog-bt" href="createblog.html"> <i class="fa-solid fa-pencil" style="color: rgb(255, 255, 255);"></i> Create a Blog </a>
+
         </div>
         <div class="review-search-box">
             <input type="text" class="review-search" placeholder="Search games or reviews...">
@@ -100,137 +108,354 @@
             <a class="section1-blog" href="#"> <i class="fa-regular fa-comment"></i> Opinions </a>
         </div>
 
-        <div class="first-blog">
-            <label class="fb-label">FEATURED</label> <br>
-            <span class="fb-text">The Game That taught Me <br> What Freedom Feels Like</span> <br>
-            <p class="fb-subtext">A heartfelt journey through Read-Dead <br> Redemption 2 --The good, the bad and <br> the beautiful.</p>
-            <div class="fb-icons">
-                <label class="fb-icon-label" > <i style="color: white;" class="fa-solid fa-gamepad"></i> Red Dead Redemption 2</label>
-                <label class="fb-icon-label" > <i class="fa-solid fa-user"></i> Ezin</label>
-                <label class="fb-icon-label" > <i class="fa-regular fa-clock"></i> 8 min read</label>
-                <a class="fb-icon-label-bt" href="#"> Read More <i class="fa-solid fa-arrow-right fa-sm"></i></a>
-            </div>
-        </div>
-        <div class="All-cont-1">
-            <div class="All-cont-1-img"></div>
-            <div class="All-cont-1-details">
-                <label class="fb-label fb-rev">REVIEW</label><br>
-                <p class="rev-allcont-text">Elden Ring-A Masterpiece<br>or Overhyped</p>
-                <p class="fb-subtext fil-text ">After 120 hours in the Lands Between, here's my honest take on what makes Elden Ring special - and where it falls short.</p>
-                <div class="fb-icons fil-ic">
-                    <label class="fb-icon-label fil" > <i style="color: white;" class="fa-solid fa-gamepad"></i>   Elden ring</label>
-                    <label class="fb-icon-label fil" > <i class="fa-solid fa-user"></i> Ezin</label>
-                    <label class="fb-icon-label fil" > <i class="fa-regular fa-clock"></i> 8 min read</label>
+        <div class="small-screen-blog">
+            <div class="first-blog">
+                <label class="fb-label">FEATURED</label> <br>
+                <span class="fb-text">The Game That taught Me <br> What Freedom Feels Like</span> <br>
+                <p class="fb-subtext">A heartfelt journey through Read-Dead <br> Redemption 2 --The good, the bad and <br> the beautiful.</p>
+                <div class="fb-icons">
+                    <label class="fb-icon-label" > <i style="color: white;" class="fa-solid fa-gamepad"></i> Red Dead Redemption 2</label>
+                    <label class="fb-icon-label" > <i class="fa-solid fa-user"></i> Ezin</label>
+                    <label class="fb-icon-label" > <i class="fa-regular fa-clock"></i> 8 min read</label>
+                    <a class="fb-icon-label-bt" href="#"> Read More <i class="fa-solid fa-arrow-right fa-sm"></i></a>
                 </div>
-                <div class="fb-rating">
-                    <label class = "fb-icon-label fil" ><i class="fa-solid fa-star fa-xs" style="color: rgb(255, 212, 59);"></i> 4.5/5 </label>
-                    <div>
-                        <label class = "fb-icon-label fil" ><i class="fa-solid fa-heart" style="color: rgb(255, 0, 0);"></i></i> 312</label>
-                        <label class = "fb-icon-label fil" ><i class="fa-solid fa-comment" style="color: rgb(160, 181, 199);"></i> 48 </label>
+            </div>
+            <div class="All-cont-1">
+                <div class="All-cont-1-img"></div>
+                <div class="All-cont-1-details">
+                    <label class="fb-label fb-rev">REVIEW</label><br>
+                    <p class="rev-allcont-text">Elden Ring-A Masterpiece<br>or Overhyped</p>
+                    <p class="fb-subtext fil-text ">After 120 hours in the Lands Between, here's my honest take on what makes Elden Ring special - and where it falls short.</p>
+                    <div class="fb-icons fil-ic">
+                        <label class="fb-icon-label fil" > <i style="color: white;" class="fa-solid fa-gamepad"></i>   Elden ring</label>
+                        <label class="fb-icon-label fil" > <i class="fa-solid fa-user"></i> Ezin</label>
+                        <label class="fb-icon-label fil" > <i class="fa-regular fa-clock"></i> 8 min read</label>
+                    </div>
+                    <div class="fb-rating">
+                        <label class = "fb-icon-label fil" ><i class="fa-solid fa-star fa-xs" style="color: rgb(255, 212, 59);"></i> 4.5/5 </label>
+                        <div>
+                            <label class = "fb-icon-label fil" ><i class="fa-solid fa-heart" style="color: rgb(255, 0, 0);"></i></i> 312</label>
+                            <label class = "fb-icon-label fil" ><i class="fa-solid fa-comment" style="color: rgb(160, 181, 199);"></i> 48 </label>
+                        </div>
                     </div>
                 </div>
             </div>
-        </div>
-        <div class="All-cont-1">
-            <div class="All-cont-1-img ac2img"></div>
-            <div class="All-cont-1-details">
-                <label style="background-color: green;" class="fb-label fb-rev">STORY</label><br>
-                <p class="rev-allcont-text">My First Time Playing GTA V</p>
-                <p class="fb-subtext fil-text ">I was late to the party, But this game still blew my mind. Here's my journey, from the first mission to the heist..</p>
-                <div class="fb-icons fil-ic">
-                    <label class="fb-icon-label fil" > <i style="color: white;" class="fa-solid fa-gamepad"></i> GTA V</label>
-                    <label class="fb-icon-label fil" > <i class="fa-solid fa-user"></i> Zaid</label>
-                    <label class="fb-icon-label fil" > <i class="fa-regular fa-clock"></i> 5 min read</label>
-                </div>
-                <div class="fb-rating">
-                    <label class = "fb-icon-label fil" ><i class="fa-solid fa-star fa-xs" style="color: rgb(255, 212, 59);"></i> 4.0/5 </label>
-                    <div>
-                        <label class = "fb-icon-label fil" ><i class="fa-solid fa-heart" style="color: rgb(255, 0, 0);"></i></i> 300</label>
-                        <label class = "fb-icon-label fil" ><i class="fa-solid fa-comment" style="color: rgb(160, 181, 199);"></i> 42 </label>
+            <div class="All-cont-1">
+                <div class="All-cont-1-img ac2img"></div>
+                <div class="All-cont-1-details">
+                    <label style="background-color: green;" class="fb-label fb-rev">STORY</label><br>
+                    <p class="rev-allcont-text">My First Time Playing GTA V</p>
+                    <p class="fb-subtext fil-text ">I was late to the party, But this game still blew my mind. Here's my journey, from the first mission to the heist..</p>
+                    <div class="fb-icons fil-ic">
+                        <label class="fb-icon-label fil" > <i style="color: white;" class="fa-solid fa-gamepad"></i> GTA V</label>
+                        <label class="fb-icon-label fil" > <i class="fa-solid fa-user"></i> Zaid</label>
+                        <label class="fb-icon-label fil" > <i class="fa-regular fa-clock"></i> 5 min read</label>
+                    </div>
+                    <div class="fb-rating">
+                        <label class = "fb-icon-label fil" ><i class="fa-solid fa-star fa-xs" style="color: rgb(255, 212, 59);"></i> 4.0/5 </label>
+                        <div>
+                            <label class = "fb-icon-label fil" ><i class="fa-solid fa-heart" style="color: rgb(255, 0, 0);"></i></i> 300</label>
+                            <label class = "fb-icon-label fil" ><i class="fa-solid fa-comment" style="color: rgb(160, 181, 199);"></i> 42 </label>
+                        </div>
                     </div>
                 </div>
             </div>
-        </div>
-        <div class="All-cont-1">
-            <div class="All-cont-1-img ac3img "></div>
-            <div class="All-cont-1-details">
-                <label style="background-color: rgb(153, 125, 1);" class="fb-label fb-rev">Opinion</label><br>
-                <p class="rev-allcont-text">Is Minecraft still worth Playing <br> in 2026?</p>
-                <p class="fb-subtext fil-text ">It's been over 10 years, and I still log in. Here's why Minecraft will always have a special place in my heart.</p>
-                <div class="fb-icons fil-ic">
-                    <label class="fb-icon-label fil" > <i style="color: white;" class="fa-solid fa-gamepad"></i>  Minecraft</label>
-                    <label class="fb-icon-label fil" > <i class="fa-solid fa-user"></i> Ahmed</label>
-                    <label class="fb-icon-label fil" > <i class="fa-regular fa-clock"></i> 4 min read</label>
-                </div>
-                <div class="fb-rating">
-                    <label class = "fb-icon-label fil" ><i class="fa-solid fa-star fa-xs" style="color: rgb(255, 212, 59);"></i> 3.5/5 </label>
-                    <div>
-                        <label class = "fb-icon-label fil" ><i class="fa-solid fa-heart" style="color: rgb(255, 0, 0);"></i></i> 185</label>
-                        <label class = "fb-icon-label fil" ><i class="fa-solid fa-comment" style="color: rgb(160, 181, 199);"></i> 25 </label>
+            <div class="All-cont-1">
+                <div class="All-cont-1-img ac3img "></div>
+                <div class="All-cont-1-details">
+                    <label style="background-color: rgb(153, 125, 1);" class="fb-label fb-rev">Opinion</label><br>
+                    <p class="rev-allcont-text">Is Minecraft still worth Playing <br> in 2026?</p>
+                    <p class="fb-subtext fil-text ">It's been over 10 years, and I still log in. Here's why Minecraft will always have a special place in my heart.</p>
+                    <div class="fb-icons fil-ic">
+                        <label class="fb-icon-label fil" > <i style="color: white;" class="fa-solid fa-gamepad"></i>  Minecraft</label>
+                        <label class="fb-icon-label fil" > <i class="fa-solid fa-user"></i> Ahmed</label>
+                        <label class="fb-icon-label fil" > <i class="fa-regular fa-clock"></i> 4 min read</label>
+                    </div>
+                    <div class="fb-rating">
+                        <label class = "fb-icon-label fil" ><i class="fa-solid fa-star fa-xs" style="color: rgb(255, 212, 59);"></i> 3.5/5 </label>
+                        <div>
+                            <label class = "fb-icon-label fil" ><i class="fa-solid fa-heart" style="color: rgb(255, 0, 0);"></i></i> 185</label>
+                            <label class = "fb-icon-label fil" ><i class="fa-solid fa-comment" style="color: rgb(160, 181, 199);"></i> 25 </label>
+                        </div>
                     </div>
                 </div>
             </div>
-        </div>
-        <div class="All-cont-1">
-            <div class="All-cont-1-img ac4img"></div>
-            <div class="All-cont-1-details">
-                <label class="fb-label fb-rev">REVIEW</label><br>
-                <p class="rev-allcont-text">The Scariest Game I've ever Played</p>
-                <p class="fb-subtext fil-text ">No jumpscares can prepare you for this..I played the nun last night and I'm still not okay. Here's my experience</p>
-                <div class="fb-icons fil-ic">
-                    <label class="fb-icon-label fil" > <i style="color: white;" class="fa-solid fa-gamepad"></i>   The Nun</label>
-                    <label class="fb-icon-label fil" > <i class="fa-solid fa-user"></i> Sara</label>
-                    <label class="fb-icon-label fil" > <i class="fa-regular fa-clock"></i> 7 min read</label>
-                </div>
-                <div class="fb-rating">
-                    <label class = "fb-icon-label fil" ><i class="fa-solid fa-star fa-xs" style="color: rgb(255, 212, 59);"></i> 4.5/5 </label>
-                    <div>
-                        <label class = "fb-icon-label fil" ><i class="fa-solid fa-heart" style="color: rgb(255, 0, 0);"></i></i> 401</label>
-                        <label class = "fb-icon-label fil" ><i class="fa-solid fa-comment" style="color: rgb(160, 181, 199);"></i> 48 </label>
+            <div class="All-cont-1">
+                <div class="All-cont-1-img ac4img"></div>
+                <div class="All-cont-1-details">
+                    <label class="fb-label fb-rev">REVIEW</label><br>
+                    <p class="rev-allcont-text">The Scariest Game I've ever Played</p>
+                    <p class="fb-subtext fil-text ">No jumpscares can prepare you for this..I played the nun last night and I'm still not okay. Here's my experience</p>
+                    <div class="fb-icons fil-ic">
+                        <label class="fb-icon-label fil" > <i style="color: white;" class="fa-solid fa-gamepad"></i>   The Nun</label>
+                        <label class="fb-icon-label fil" > <i class="fa-solid fa-user"></i> Sara</label>
+                        <label class="fb-icon-label fil" > <i class="fa-regular fa-clock"></i> 7 min read</label>
+                    </div>
+                    <div class="fb-rating">
+                        <label class = "fb-icon-label fil" ><i class="fa-solid fa-star fa-xs" style="color: rgb(255, 212, 59);"></i> 4.5/5 </label>
+                        <div>
+                            <label class = "fb-icon-label fil" ><i class="fa-solid fa-heart" style="color: rgb(255, 0, 0);"></i></i> 401</label>
+                            <label class = "fb-icon-label fil" ><i class="fa-solid fa-comment" style="color: rgb(160, 181, 199);"></i> 48 </label>
+                        </div>
                     </div>
                 </div>
             </div>
-        </div>
-        <div class="All-cont-1">
-            <div class="All-cont-1-img ac5img"></div>
-            <div class="All-cont-1-details">
-                <label class="fb-label fb-rev">REVIEW</label><br>
-                <p class="rev-allcont-text">Beautiful, chaotic, and surprisingly emotional</p>
-                <p class="fb-subtext fil-text ">Night City is still one of the most visually impressive worlds I've explored. The story and characters are where this game really shines</p>
-                <div class="fb-icons fil-ic">
-                    <label class="fb-icon-label fil" > <i style="color: white;" class="fa-solid fa-gamepad"></i>   Cyberpunk 2077</label>
-                    <label class="fb-icon-label fil" > <i class="fa-solid fa-user"></i> Rohan</label>
-                    <label class="fb-icon-label fil" > <i class="fa-regular fa-clock"></i> 6 min read</label>
-                </div>
-                <div class="fb-rating">
-                    <label class = "fb-icon-label fil" ><i class="fa-solid fa-star fa-xs" style="color: rgb(255, 212, 59);"></i> 4.5/5 </label>
-                    <div>
-                        <label class = "fb-icon-label fil" ><i class="fa-solid fa-heart" style="color: rgb(255, 0, 0);"></i></i> 176</label>
-                        <label class = "fb-icon-label fil" ><i class="fa-solid fa-comment" style="color: rgb(160, 181, 199);"></i> 22 </label>
+            <div class="All-cont-1">
+                <div class="All-cont-1-img ac5img"></div>
+                <div class="All-cont-1-details">
+                    <label class="fb-label fb-rev">REVIEW</label><br>
+                    <p class="rev-allcont-text">Beautiful, chaotic, and surprisingly emotional</p>
+                    <p class="fb-subtext fil-text ">Night City is still one of the most visually impressive worlds I've explored. The story and characters are where this game really shines</p>
+                    <div class="fb-icons fil-ic">
+                        <label class="fb-icon-label fil" > <i style="color: white;" class="fa-solid fa-gamepad"></i>   Cyberpunk 2077</label>
+                        <label class="fb-icon-label fil" > <i class="fa-solid fa-user"></i> Rohan</label>
+                        <label class="fb-icon-label fil" > <i class="fa-regular fa-clock"></i> 6 min read</label>
+                    </div>
+                    <div class="fb-rating">
+                        <label class = "fb-icon-label fil" ><i class="fa-solid fa-star fa-xs" style="color: rgb(255, 212, 59);"></i> 4.5/5 </label>
+                        <div>
+                            <label class = "fb-icon-label fil" ><i class="fa-solid fa-heart" style="color: rgb(255, 0, 0);"></i></i> 176</label>
+                            <label class = "fb-icon-label fil" ><i class="fa-solid fa-comment" style="color: rgb(160, 181, 199);"></i> 22 </label>
+                        </div>
                     </div>
                 </div>
             </div>
-        </div>
-        <div class="All-cont-1">
-            <div class="All-cont-1-img ac6img"></div>
-            <div class="All-cont-1-details">
-                <label class="fb-label fb-rev">REVIEW</label><br>
-                <p class="rev-allcont-text">More Than a game its an experience</p>
-                <p class="fb-subtext fil-text ">The story is what stayed with me long after I finished Playing. Every Character feels like they have a reason to be there</p>
-                <div class="fb-icons fil-ic">
-                    <label class="fb-icon-label fil" > <i style="color: white;" class="fa-solid fa-gamepad"></i>  the-last-of-us</label>
-                    <label class="fb-icon-label fil" > <i class="fa-solid fa-user"></i> zain</label>
-                    <label class="fb-icon-label fil" > <i class="fa-regular fa-clock"></i> 8 min read</label>
-                </div>
-                <div class="fb-rating">
-                    <label class = "fb-icon-label fil" ><i class="fa-solid fa-star fa-xs" style="color: rgb(255, 212, 59);"></i> 4.0/5 </label>
-                    <div>
-                        <label class = "fb-icon-label fil" ><i class="fa-solid fa-heart" style="color: rgb(255, 0, 0);"></i></i> 156</label>
-                        <label class = "fb-icon-label fil" ><i class="fa-solid fa-comment" style="color: rgb(160, 181, 199);"></i> 16 </label>
+            <div class="All-cont-1">
+                <div class="All-cont-1-img ac6img"></div>
+                <div class="All-cont-1-details">
+                    <label class="fb-label fb-rev">REVIEW</label><br>
+                    <p class="rev-allcont-text">More Than a game its an experience</p>
+                    <p class="fb-subtext fil-text ">The story is what stayed with me long after I finished Playing. Every Character feels like they have a reason to be there</p>
+                    <div class="fb-icons fil-ic">
+                        <label class="fb-icon-label fil" > <i style="color: white;" class="fa-solid fa-gamepad"></i>  the-last-of-us</label>
+                        <label class="fb-icon-label fil" > <i class="fa-solid fa-user"></i> zain</label>
+                        <label class="fb-icon-label fil" > <i class="fa-regular fa-clock"></i> 8 min read</label>
+                    </div>
+                    <div class="fb-rating">
+                        <label class = "fb-icon-label fil" ><i class="fa-solid fa-star fa-xs" style="color: rgb(255, 212, 59);"></i> 4.0/5 </label>
+                        <div>
+                            <label class = "fb-icon-label fil" ><i class="fa-solid fa-heart" style="color: rgb(255, 0, 0);"></i></i> 156</label>
+                            <label class = "fb-icon-label fil" ><i class="fa-solid fa-comment" style="color: rgb(160, 181, 199);"></i> 16 </label>
+                        </div>
                     </div>
                 </div>
             </div>
+            <div class="write-blog-cont">
+                <h4 style="color: white; text-align: center;">YOUR TURN?</h4>
+                <p style="text-align: center; margin-bottom: 10px;" class="rev-allcont-text">Played a Great Game? <br> Share your experience with other gamers</p>
+                <h5 style="color: white; text-align: center; margin-bottom: 10px;">Share Your stories..</h5>
+                <a class="createblog-bt" href="createblog.html"> <i class="fa-solid fa-pencil" style="color: rgb(255, 255, 255);"></i> Create a Blog </a>
+
+            </div>
         </div>
+
+        <div class="large-screen-blog">
+            <div class="large-left">
+                <div class="first-blog">
+                    <label class="fb-label">FEATURED</label> <br>
+                    <span class="fb-text">The Game That taught Me <br> What Freedom Feels Like</span> <br>
+                    <p class="fb-subtext">A heartfelt journey through Read-Dead <br> Redemption 2 --The good, the bad and <br> the beautiful.</p>
+                    <div class="fb-icons">
+                        <label class="fb-icon-label" > <i style="color: white;" class="fa-solid fa-gamepad"></i> Red Dead Redemption 2</label>
+                        <label class="fb-icon-label" > <i class="fa-solid fa-user"></i> Ezin</label>
+                        <label class="fb-icon-label" > <i class="fa-regular fa-clock"></i> 8 min read</label>
+                        <a class="fb-icon-label-bt" href="#"> Read More <i class="fa-solid fa-arrow-right fa-sm"></i></a>
+                    </div>
+                </div>
+                <div class="b-sec-1">
+                    <div class="All-cont-1">
+                        <div class="All-cont-1-img"></div>
+                        <div class="All-cont-1-details">
+                            <label class="fb-label fb-rev">REVIEW</label><br>
+                            <p class="rev-allcont-text">Elden Ring-A Masterpiece<br>or Overhyped</p>
+                            <p class="fb-subtext fil-text ">After 120 hours in the Lands Between, here's my honest take on what makes Elden Ring special - and where it falls short.</p>
+                            <div class="fb-icons fil-ic">
+                                <label class="fb-icon-label fil" > <i style="color: white;" class="fa-solid fa-gamepad"></i>   Elden ring</label>
+                                <label class="fb-icon-label fil" > <i class="fa-solid fa-user"></i> Ezin</label>
+                                <label class="fb-icon-label fil" > <i class="fa-regular fa-clock"></i> 8 min read</label>
+                            </div>
+                            <div class="fb-rating">
+                                <label class = "fb-icon-label fil" ><i class="fa-solid fa-star fa-xs" style="color: rgb(255, 212, 59);"></i> 4.5/5 </label>
+                                <div>
+                                    <label class = "fb-icon-label fil" ><i class="fa-solid fa-heart" style="color: rgb(255, 0, 0);"></i></i> 312</label>
+                                    <label class = "fb-icon-label fil" ><i class="fa-solid fa-comment" style="color: rgb(160, 181, 199);"></i> 48 </label>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="All-cont-1">
+                        <div class="All-cont-1-img ac2img"></div>
+                        <div class="All-cont-1-details">
+                            <label style="background-color: green;" class="fb-label fb-rev">STORY</label><br>
+                            <p class="rev-allcont-text">My First Time Playing GTA V</p>
+                            <p class="fb-subtext fil-text ">I was late to the party, But this game still blew my mind. Here's my journey, from the first mission to the heist..</p>
+                            <div class="fb-icons fil-ic">
+                                <label class="fb-icon-label fil" > <i style="color: white;" class="fa-solid fa-gamepad"></i> GTA V</label>
+                                <label class="fb-icon-label fil" > <i class="fa-solid fa-user"></i> Zaid</label>
+                                <label class="fb-icon-label fil" > <i class="fa-regular fa-clock"></i> 5 min read</label>
+                            </div>
+                            <div class="fb-rating">
+                                <label class = "fb-icon-label fil" ><i class="fa-solid fa-star fa-xs" style="color: rgb(255, 212, 59);"></i> 4.0/5 </label>
+                                <div>
+                                    <label class = "fb-icon-label fil" ><i class="fa-solid fa-heart" style="color: rgb(255, 0, 0);"></i></i> 300</label>
+                                    <label class = "fb-icon-label fil" ><i class="fa-solid fa-comment" style="color: rgb(160, 181, 199);"></i> 42 </label>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="b-sec-1">
+                    <div class="All-cont-1">
+                        <div class="All-cont-1-img ac3img "></div>
+                        <div class="All-cont-1-details">
+                            <label style="background-color: rgb(153, 125, 1);" class="fb-label fb-rev">Opinion</label><br>
+                            <p class="rev-allcont-text">Is Minecraft still worth Playing <br> in 2026?</p>
+                            <p class="fb-subtext fil-text ">It's been over 10 years, and I still log in. Here's why Minecraft will always have a special place in my heart.</p>
+                            <div class="fb-icons fil-ic">
+                                <label class="fb-icon-label fil" > <i style="color: white;" class="fa-solid fa-gamepad"></i>  Minecraft</label>
+                                <label class="fb-icon-label fil" > <i class="fa-solid fa-user"></i> Ahmed</label>
+                                <label class="fb-icon-label fil" > <i class="fa-regular fa-clock"></i> 4 min read</label>
+                            </div>
+                            <div class="fb-rating">
+                                <label class = "fb-icon-label fil" ><i class="fa-solid fa-star fa-xs" style="color: rgb(255, 212, 59);"></i> 3.5/5 </label>
+                                <div>
+                                    <label class = "fb-icon-label fil" ><i class="fa-solid fa-heart" style="color: rgb(255, 0, 0);"></i></i> 185</label>
+                                    <label class = "fb-icon-label fil" ><i class="fa-solid fa-comment" style="color: rgb(160, 181, 199);"></i> 25 </label>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="All-cont-1">
+                        <div class="All-cont-1-img ac4img"></div>
+                        <div class="All-cont-1-details">
+                            <label class="fb-label fb-rev">REVIEW</label><br>
+                            <p class="rev-allcont-text">The Scariest Game I've ever Played</p>
+                            <p class="fb-subtext fil-text ">No jumpscares can prepare you for this..I played the nun last night and I'm still not okay. Here's my experience</p>
+                            <div class="fb-icons fil-ic">
+                                <label class="fb-icon-label fil" > <i style="color: white;" class="fa-solid fa-gamepad"></i>   The Nun</label>
+                                <label class="fb-icon-label fil" > <i class="fa-solid fa-user"></i> Sara</label>
+                                <label class="fb-icon-label fil" > <i class="fa-regular fa-clock"></i> 7 min read</label>
+                            </div>
+                            <div class="fb-rating">
+                                <label class = "fb-icon-label fil" ><i class="fa-solid fa-star fa-xs" style="color: rgb(255, 212, 59);"></i> 4.5/5 </label>
+                                <div>
+                                    <label class = "fb-icon-label fil" ><i class="fa-solid fa-heart" style="color: rgb(255, 0, 0);"></i></i> 401</label>
+                                    <label class = "fb-icon-label fil" ><i class="fa-solid fa-comment" style="color: rgb(160, 181, 199);"></i> 48 </label>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="b-sec-1">
+                    <div class="All-cont-1">
+                        <div class="All-cont-1-img ac5img"></div>
+                        <div class="All-cont-1-details">
+                            <label class="fb-label fb-rev">REVIEW</label><br>
+                            <p class="rev-allcont-text">Beautiful, chaotic, and surprisingly emotional</p>
+                            <p class="fb-subtext fil-text ">Night City is still one of the most visually impressive worlds I've explored. The story and characters are where this game really shines</p>
+                                <div class="fb-icons fil-ic">
+                                    <label class="fb-icon-label fil" > <i style="color: white;" class="fa-solid fa-gamepad"></i>   Cyberpunk 2077</label>
+                                    <label class="fb-icon-label fil" > <i class="fa-solid fa-user"></i> Rohan</label>
+                                    <label class="fb-icon-label fil" > <i class="fa-regular fa-clock"></i> 6 min read</label>
+                                </div>
+                                <div class="fb-rating">
+                                    <label class = "fb-icon-label fil" ><i class="fa-solid fa-star fa-xs" style="color: rgb(255, 212, 59);"></i> 4.5/5 </label>
+                                    <div>
+                                        <label class = "fb-icon-label fil" ><i class="fa-solid fa-heart" style="color: rgb(255, 0, 0);"></i></i> 176</label>
+                                        <label class = "fb-icon-label fil" ><i class="fa-solid fa-comment" style="color: rgb(160, 181, 199);"></i> 22 </label>
+                                    </div>
+                                </div>
+                        </div>
+                    </div>
+                    <div class="All-cont-1">
+                        <div class="All-cont-1-img ac6img"></div>
+                        <div class="All-cont-1-details">
+                            <label class="fb-label fb-rev">REVIEW</label><br>
+                            <p class="rev-allcont-text">More Than a game its an experience</p>
+                            <p class="fb-subtext fil-text ">The story is what stayed with me long after I finished Playing. Every Character feels like they have a reason to be there</p>
+                            <div class="fb-icons fil-ic">
+                                <label class="fb-icon-label fil" > <i style="color: white;" class="fa-solid fa-gamepad"></i>  the-last-of-us</label>
+                                <label class="fb-icon-label fil" > <i class="fa-solid fa-user"></i> zain</label>
+                                <label class="fb-icon-label fil" > <i class="fa-regular fa-clock"></i> 8 min read</label>
+                            </div>
+                            <div class="fb-rating">
+                                <label class = "fb-icon-label fil" ><i class="fa-solid fa-star fa-xs" style="color: rgb(255, 212, 59);"></i> 4.0/5 </label>
+                                <div>
+                                    <label class = "fb-icon-label fil" ><i class="fa-solid fa-heart" style="color: rgb(255, 0, 0);"></i></i> 156</label>
+                                    <label class = "fb-icon-label fil" ><i class="fa-solid fa-comment" style="color: rgb(160, 181, 199);"></i> 16 </label>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <div class="large-right">
+                <div class="popular-tags">
+                    <label class="popular-tags-title"> <i class="fa-solid fa-tag fa-lg bookmark" style="color: rgb(91, 125, 177);"></i> Popular Tags</label>
+                    <div class="popular-tags-icons">
+                        <label class="popular-labels">#Review</label>
+                        <label class="popular-labels">#Story</label>
+                        <label class="popular-labels">#Opinions</label>
+                        <label class="popular-labels">#Guide</label>
+                        <label class="popular-labels">#RPG</label>
+                        <label class="popular-labels">#Multiplayer</label>
+                        <label class="popular-labels">#Experience</label>
+                        <label class="popular-labels">#Horror</label>
+                        <label class="popular-labels">#Adventure</label>
+                        <label class="popular-labels">#OpenWorld</label>
+                    </div>
+                </div>
+                <div class="Most-read-section">
+                    <label class="most-read-title"> 
+                        <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="orange" class="bi bi-fire" viewBox="0 0 16 16">
+                            <path d="M8 16c3.314 0 6-2 6-5.5 0-1.5-.5-4-2.5-6 .25 1.5-1.25 2-1.25 2C11 4 9 .5 6 0c.357 2 .5 4-2 6-1.25 1-2 2.729-2 4.5C2 14 4.686 16 8 16m0-1c-1.657 0-3-1-3-2.75 0-.75.25-2 1.25-3C6.125 10 7 10.5 7 10.5c-.375-1.25.5-3.25 2-3.5-.179 1-.25 2 1 3 .625.5 1 1.364 1 2.25C11 14 9.657 15 8 15"/>
+                        </svg> 
+                        Most Read this Week
+                    </label>
+                    <div class="m-r-t-w-1">
+                        <label class="counts">1</label>
+                        <div class="m-r-t-w-img"></div>
+                        <span class="m-r-t-w-text"> Elden Ring -A Masterpiece or Overhyped?</span>
+                    </div>
+                    <div class="m-r-t-w-1 mrtw-2text">
+                        <label class="counts">2</label>
+                        <div class="m-r-t-w-img mrtw2"></div>
+                        <span class="m-r-t-w-text"> My First Time Playing GTA V</span>
+                    </div>
+                    <div class="m-r-t-w-1">
+                        <label class="counts">3</label>
+                        <div class="m-r-t-w-img mrtw3"></div>
+                        <span class="m-r-t-w-text"> Why I still play minecraft After 10 years</span>
+                    </div>
+                    <div class="m-r-t-w-1">
+                        <label class="counts">4</label>
+                        <div class="m-r-t-w-img mrtw4"></div>
+                        <span class="m-r-t-w-text">The Scariest Game I've ever Played</span>
+                    </div>
+                    <div class="m-r-t-w-1">
+                        <label class="counts">5</label>
+                        <div class="m-r-t-w-img mrtw5"></div>
+                        <span class="m-r-t-w-text">CyberPunk 2077: A Beautiful mess</span>
+                    </div>
+                </div>
+                <div class="qoutes">
+                    <i style="color: blueviolet; font-size: 60px;" class="bi bi-controller"></i>
+                    <p class="qoutes-text">"Games aren't just <br> about winning <br> they're about the Stories <br> we live, the people we meet, <br> and the worlds we explore."</p>
+                    <span class="qoutes-author"> - Purrfect-play</span>
+                    <span class="qoutes-subtext">Keep Playing <i class="bi bi-suit-heart-fill"></i> </span>
+                </div>
+            </div>
+            
+        </div>
+        <div class="write-blog-cont wbc wbc-lg">
+            <h4 style="color: white; text-align: center;">You can share with us!!</h4>
+            <h5 style="color: white; text-align: center; margin-bottom: 10px;">Share Your stories..</h5>
+            <a class="createblog-bt" href="createblog.html"> <i class="fa-solid fa-pencil" style="color: rgb(255, 255, 255);"></i> Create a Blog </a>
+
+        </div>
+
+        
         
 
     </div>

@@ -1244,10 +1244,9 @@ img{
 .All-cont-1{
     width: 100%;
     height: 180px;
+    padding: 5px;
     border-radius: 12px;
     margin-top: 10px;
-    padding: 5px;
-    padding-right: 3px;
     border: 1px solid rgb(27, 28, 54);
     display: flex;
     align-items: center;
@@ -1312,6 +1311,41 @@ img{
     display: flex;
     justify-content: space-between;
     align-items: center;
+}
+.write-blog-cont{
+    width: 100%;
+    height: 200px;
+    padding: 10px;
+    border-radius: 12px;
+    background: url(images/blogbg.jpg);
+    background-size: cover;
+    background-position: center;
+    border: 1px solid rgb(27, 28, 54);
+    margin-top: 10px;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: center;
+}
+.wbc{
+    height: 130px;
+}
+.createblog-bt{
+    color: white;
+    font-size: 20px;
+    border-radius: 12px;
+    padding: 5px;
+    padding-left: 20px;
+    padding-right: 20px;
+    background-color: rgba(23, 4, 107, 0.842);
+    text-align: center;
+
+}
+.large-screen-blog{
+    display: none;
+}
+.wbc-lg{
+    display: none;
 }
 
 
@@ -1407,6 +1441,62 @@ img{
     }
     .person1-photo{
         height: 500px;
+    }
+    /* blog page */
+
+    .blog-intro{
+        height: 250px;
+    }
+    .bit-text1{
+        font-size: 30px;
+    }
+    .bit-text2{
+        font-size: 20px;
+    }
+    .bit-text3{
+        font-size: 14px;
+        padding: 0;
+        margin: 0;
+    }
+    .section1-blog{
+        font-size: 15px;
+    }
+    .first-blog{
+        height: 260px;
+    }
+    .fb-text{
+        font-size: 25px;
+    }
+    .fb-subtext{
+        font-size: 15px;
+    }
+    .fb-icons{
+        justify-content: space-evenly;
+    }
+    .fb-icon-label{
+        font-size: 15px;
+    }
+    .fb-icon-label-bt{
+        font-size: 18px;
+        margin-left: 100px;
+    }
+    .All-cont-1{
+        height: 230px;
+    }
+    
+    .rev-allcont-text{
+        font-size: 25px;
+    }
+    .All-cont-1-img{
+        height: 100%;
+        width: 300px;
+    }
+    .write-blog-cont{
+        height: 250px;
+        justify-content: center;
+    }
+    .wbc{
+        height: 180px;
     }
 }
 
@@ -2132,11 +2222,226 @@ img{
     .action-g1{
         width: 310px;
     }
+
+/* blog page */
+    .blog-intro{
+        height: 450px;
+        margin-top: 0;
+    }
+    .blog-intro-text{
+        width: 450px;
+    }
+    .bit-text1{
+        font-size: 55px;
+    }
+    .bit-text2{
+        font-size: 40px;
+    }
+    .bit-text3{
+        font-size: 25px;
+    }
+    .ic-console{
+        font-size: 60px;
+    }
+    .write-blog-cont{
+        width: 98%;
+        margin: 10px;
+    }
+    .review-search-box{
+        width: 98%;
+        margin: 10px;
+    }
+    .blog-sections{
+        width: 98%;
+        margin: 10px;
+    }
+    .section1-blog{
+        font-size: 15px;
+    }
+    .small-screen-blog{
+        display: none;
+    }
+    .large-screen-blog{
+        display: inline;
+        width: 100%;
+        display: flex;
+        padding: 10px;
+    }
+    .large-left{
+        width: 70%;
+    }
+    .large-right{
+        width: 30%;
+        padding-left: 10px;
+        padding-top: 10px;
+    }
+    .b-sec-1{
+        width: 100%;
+        display: flex;
+        justify-content: space-evenly;
+
+    }
+    .All-cont-1{
+        flex-direction: column;
+        justify-content: flex-start;
+        align-items: center;
+        width: 49%;
+        height: 500px;
+        padding: 10px;
+    }
+    .All-cont-1-img{
+        height: 250px;
+        width: 100%;
+        margin-bottom: 5px;
+    }
+    .fb-icons{
+        margin-top: 10px;
+        margin-bottom: 10px;
+    }
+    .popular-tags{
+        width: 100%;
+        height: 300px;
+        border: 1px solid rgb(27, 28, 54);
+        border-radius: 12px;
+        margin-bottom: 10px;
+        display: flex;
+        flex-direction: column;
+        justify-content: flex-start;
+        align-items: center;
+    }
+    .popular-tags-title{
+        color: rgb(91, 125, 177);
+        font-size: 21px;
+        margin-bottom: 20px;
+    }
+    .bookmark{
+        padding-top: 8px;
+        margin-right: 10px;
+        margin-top: 25px;
+    }
+    .popular-tags-icons{
+        width: 100%;
+        margin-left: 20px;
+    }
+    .popular-labels{
+        color: rgb(110, 85, 182);
+        padding: 5px;
+        background-color: #19233d;
+        border-radius: 8px;
+        font-size: 15px;
+        margin-right: 10px;
+        margin-bottom: 15px;
+    }
+    .Most-read-section{
+        width: 100%;
+        border: 1px solid rgb(27, 28, 54);
+        border-radius: 12px;
+        display: flex;
+        flex-direction: column;
+        justify-content: flex-start;
+        align-items: center;
+    }
+    .most-read-title{
+        color: white;
+        font-weight: 500;
+        font-size: 21px;
+        margin-top: 20px;
+    }
+    .m-r-t-w-1{
+        width: 100%;
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+        margin-left: 20px;
+    }
+    .counts{
+        color:white;
+        font-size: 30px;
+        padding: 5px;
+    }
+    .m-r-t-w-img{
+        width: 120px;
+        height: 80px;
+        background: url(images/eldenring.jpg);
+        background-size: cover;
+        border-radius: 12px;
+        margin: 10px;
+    }
+    .mrtw2{
+        width: 80px;
+        background: url(images/GTAV.jpg);
+        background-size: cover;
+    }
+    .mrtw3{
+        width: 100px;
+        height: 90px;
+        background: url(images/minecraftt.jpg);
+        background-size: cover;
+        background-position: center;
+    }
+    .mrtw4{
+        width: 90px;
+        background: url(images/thenun.jpg);
+        background-size: cover;
+        background-position: center;
+    }
+    .mrtw5{
+        width: 90px;
+        background: url(images/cyberpunk2077.jpg);
+        background-size: cover;
+        background-position: top;
+    }
+    .m-r-t-w-text{
+        font-size: 15px;
+        padding: 5px;
+        padding-right: 12px;
+        color: white;
+        font-weight: 500;
+
+    }
+    .qoutes{
+        width: 100%;
+        height: 410px;
+        margin-top: 20px;
+        border-radius: 12px;
+        border: 1px solid rgb(27, 28, 54);
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .qoutes-text{
+        padding: 0;
+        margin: 0;
+        text-align: center;
+        font-size: 18px;
+        font-family: cursive;
+    }
+    .qoutes-author{
+        font-size: 13px;
+        color: blueviolet;
+        font-style: italic;
+        margin-top: 10px ;
+    }
+    .qoutes-subtext{
+        font-size: 20px;
+        margin-top: 100px;
+        color: rgb(128, 84, 170);
+    }
+    .wbc-lg{
+        display: inline;
+    }
+
 }
 @media(min-width:1079px) {
     .latest-game-1024{
         padding-left: 100px;
         padding-right: 100px;
+    }
+    .wbc-lg{
+        display: flex;
+        justify-content: center;
+        align-items: center;
     }
 }
 @media (min-width:1184px){
@@ -2667,7 +2972,17 @@ img{
     .box-ct:hover{
         text-decoration: none;
     }
-    
+
+    /* blog page */   
+    .All-cont-1-img{
+        height: 300px;
+    }
+    .ac4img{
+        background-position: top
+    }
+    .fb-icon-label-bt{
+        margin-left: 280px;
+    }
 }
 
 @media (min-width:1280px){
@@ -3088,6 +3403,19 @@ img{
     }
     .action-g1{
         width: 290px;
+    }
+    /* blog page */
+    .blog-intro{
+        height: 500px;
+    }
+    .mrtw2{
+        margin-left: 10px;
+    }
+    .mrtw-2text{
+        justify-content: flex-start;
+    }
+    .fb-icon-label-bt{
+        margin-left: 310px;
     }
 }
 
