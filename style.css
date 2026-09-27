@@ -1348,6 +1348,152 @@ img{
     display: none;
 }
 
+/* Create Blog page */
+.blog-screen{
+    width: 100%;
+    background: url(images/create-blog-bg.png);
+    background-size:cover;
+    background-position: right;
+    margin-top: 60px;
+    box-shadow: 176px 2px 88px 12px rgb(0, 0, 0) inset;
+    padding: 20px;
+
+}
+.blog-form{
+    width: 100%;
+    border: 1px solid white;
+    border-radius: 15px;
+    padding: 10px;
+    padding-top: 20px;
+    background-color: rgba(0, 0, 0, 0.479);
+    
+
+}
+.blog-title{
+    margin-top: 40px;
+    font-size: 28px;
+    color: white;
+    text-shadow: 0px 0px 15px black;
+}
+.blog-subtitle{
+    margin: 0;
+    padding-right: 110px;
+    padding-left: 0;
+    font-size: 15px;
+    color: rgb(161, 161, 161);
+}
+.pencil{
+    margin-right: 10px;
+}
+.label-blog{
+    color: white;
+    font-size: 20px;
+}
+.input-blog{
+    padding-left: 10px;
+    padding-top: 5px;
+    padding-bottom: 5px;
+    margin-top: 0;
+    border-radius: 10px;
+    border: 1px solid grey;
+    background-color: #11182b;
+    width: 100%;
+}
+.checkbox-options{
+    width: 100%;
+    display: flex;
+
+}
+
+.Guide{
+    color: white;
+    padding: 3px;
+    padding-left: 10px;
+    padding-right: 10px;
+    background-color: #11182b;
+    border-radius: 5px;font-size: 15px;
+    text-align: center;
+    margin-right: 15px;
+}
+.Guide:hover{
+    border: 1px solid rgb(77, 9, 187);
+    box-shadow: -2px 0px 37px -1px rgba(99,36,201,0.75);
+    background-color: #120238;
+    text-decoration: none;
+    color: white
+}
+.Guide:focus{
+    border: 1px solid rgb(77, 9, 187);
+    box-shadow: -2px 0px 37px -1px rgba(99,36,201,0.75);
+    background-color: #120238;
+    text-decoration: none;
+    color: white
+}
+.upload-image-cont{
+    width: 99%;
+    height: 120px;
+    border: 1px dashed #32127e;
+    border-radius: 12px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.image-upload-text{
+    color: rgb(99, 74, 121);
+    font-size: 15px;
+    margin-top: 0;
+    padding: 0;
+}
+#Story{
+    background-color: #11182b;
+    border-radius: 12px;
+    border: 1px solid grey;
+    width: 100%;
+    height: 100px;
+}
+
+#Story::placeholder{
+    font-size: 15px;
+    padding: 10px;
+}
+.rate-text{
+    font-size: 15px;
+    color: rgb(113, 100, 124);
+}
+.create-buttons{
+    width: 100%;
+    display: flex;
+    flex-flow: wrap;
+    justify-content: center;
+    margin-top: 15px;
+}
+.bt-save{
+    background-color: #11182b;
+    border: white;
+    color: white;
+    padding: 5px;
+    padding-left: 15px;
+    padding-right: 15px;
+    border-radius: 12px;
+    border: 1px solid white;
+    margin-right: 10px;
+    margin-bottom: 15px;
+}
+.publish{
+    background-color: #7415cc;
+    border: 1px solid rgb(143, 6, 206);
+    box-shadow: -2px 0px 37px 2px rgba(99,36,201,0.75);
+}
+input{
+    color: white;
+}
+.bt-save:hover{
+    text-decoration: none;
+    color: white;
+
+}
+
 
 @media(min-width:390px){
     .A1{
@@ -1497,6 +1643,12 @@ img{
     }
     .wbc{
         height: 180px;
+    }
+
+    /* create Blog */
+    .create-buttons{
+        justify-content: space-evenly;
+        margin-right: 0;
     }
 }
 
@@ -2286,7 +2438,7 @@ img{
         justify-content: flex-start;
         align-items: center;
         width: 49%;
-        height: 500px;
+        height: 600px;
         padding: 10px;
     }
     .All-cont-1-img{
@@ -2430,6 +2582,36 @@ img{
     }
     .wbc-lg{
         display: inline;
+    }
+
+    /* Create Blog Page */
+    .blog-screen{
+        margin-top: 0;
+        background-position: top;
+        background-size: cover;
+    }
+    .blog-form{
+        background-color: rgba(0, 0, 0, 0.582);
+    }
+    .blog-title{
+        font-size: 45px;
+    }
+    .blog-subtitle{
+        font-size: 25px;
+        margin-bottom: 40px;
+        padding-right: 180px;
+        text-shadow: 0px 0px 40px black;
+    }
+    .label-blog{
+        font-size: 25px;
+    }
+    .Guide{
+        font-size: 20px;
+        padding-left: 20px;
+        padding-right: 20px;
+    }
+    .bt-save{
+        font-size: 20px;
     }
 
 }
