@@ -1,0 +1,318 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="icon" type="image/x-icon" href="images/icon.jpg">
+    <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js" integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@4.5.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-ho+j7jyWK8fNQe+A12Hb8AhRq26LrZ/JpcUGGOn+Y7RsweNrtN/tE3MoK7ZeZDyx" crossorigin="anonymous"></script>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.5.3/dist/css/bootstrap.min.css" integrity="sha384-TX8t27EcRE3e/ihU7zmQxVncDAy5uIKz4rEkgIXeMed4M0jlfIDPvg6uqKI2xXr2" crossorigin="anonymous">
+    <script src="https://kit.fontawesome.com/49b7f4e6c4.js" crossorigin="anonymous"></script>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.13.1/font/bootstrap-icons.min.css">
+
+    <link rel="stylesheet" href="style.css">
+    <title>Purrfect-play</title>
+</head>
+<body>
+    <div class="A1">
+        <!-- just in case nav -->
+         <nav class="navbar navbar-expand-lg navbar-light bg-dark jic-nav">
+            <a class="navbar-brand icon-nav" href="index.html">
+            </a>
+            <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+              <span class="navbar-toggler-icon"></span>
+            </button>
+
+            <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                <ul class="navbar-nav mr-auto">
+                    <li class="nav-item active">
+                      <a class="nav-link" href="index.html">Home <span class="sr-only">(current)</span></a>
+                    </li>
+                    <li class="nav-item active">
+                      <a class="nav-link" href="aboutus.html">About Us<span class="sr-only">(current)</span></a>
+                    </li>
+                    <li class="nav-item active">
+                      <a class="nav-link" href="categories.html">Categories<span class="sr-only">(current)</span></a>
+                    </li>
+                    <li class="nav-item active">
+                      <a class="nav-link" href="blogs.html">Blogs<span class="sr-only">(current)</span></a>
+                    </li>
+                    <li class="nav-item dropdown">
+                      <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                        Contact
+                      </a>
+                        <div class="dropdown-menu" aria-labelledby="navbarDropdown">
+                          <a class="dropdown-item" href="#">+91 9875432256</a>
+                          <a class="dropdown-item" href="#">PurrfectPlay@gmail.com</a>
+                        </div>
+                    </li>
+                </ul>
+                <form class="form-inline my-2 my-lg-0">
+                    <input class="form-control mr-sm-2" type="search" placeholder="Search" aria-label="Search">
+                    <button class="btn btn-outline-success my-2 my-sm-0" type="submit">Search</button>
+                </form>
+                <a class="nav-link" href="Account.html"><i class="fa-solid fa-user" style="color: rgb(253, 253, 253);"></i><span class="sr-only">(current)</span></a>
+            </div>
+        </nav>
+         <!-- nav bar for small screen -->
+        <div class="fixed-top">
+            <div class="collapse" id="navbarToggleExternalContent">
+                <div class="bg-dark top">
+                    <ul class="navigation-1items">
+                        <li><a class="top-links" href="index.html">Home</a></li>
+                        <li><a class="top-links" href="aboutus.html">About Us</a></li>
+                        <li><a class="top-links" href="categories.html">Categories</a></li>
+                        <li><a class="top-links" href="blogs.html">blog</a></li>
+                        <li><a class="top-links" href="Account.html">Account</a></li>
+                        <li>
+                            <div style="display: flex; justify-content: center; align-items: center;">
+                                <input class="sear" type="search" placeholder="Search...">
+                                <i style=" color: white;" class="fa-solid fa-magnifying-glass"></i>
+                            </div>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+            <nav class="navbar navbar-dark bg-dark top">
+                <div style="width: 70px; height: 50px; background-image: url(images/icon.png); background-size: cover;">
+                </div>
+                <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarToggleExternalContent" aria-controls="navbarToggleExternalContent" aria-expanded="false" aria-label="Toggle navigation">
+                    <span class="navbar-toggler-icon"></span>
+                </button>
+            </nav>
+        </div>
+        <!-- top-photo -->
+        <div class="top-cont">
+            <div class="profile-pic-cont">
+                <div class="profile-pic"></div>
+                <a href="#" class="camera-ic">
+                    <i class="fa-regular fa-camera" style="color: rgb(134, 134, 134)"></i>
+                </a>
+            </div>
+            <div class="profile-Detail-cont">
+                <div style=" width: 100%;display: flex; flex-direction: row; justify-content: flex-start; align-items: center;"><span class="profile-name">Ezin <i class="fa-solid fa-crown fa-2xs" style="color: rgb(179, 106, 221); background-color: rgba(0, 0, 0, 0.445); padding: 5px; border-radius: 12px; margin: 0;"></i></span></div>
+                <span class="user-name"> @ezin_gamer</span>
+                <span class="user-p">Just a girl who loves games, good stories and a little bit of chaos</span>
+                <div class="tag-details-ac">
+                    <label> RPG </label>
+                    <label> Horror </label>
+                    <label> Adventure </label>
+                    <label> Indie </label>
+                </div>
+                <div class="editprofile-bt">
+                    <a href=""> <i class="fa-solid fa-pencil" style="color: white;"></i> Edit Profile</a>
+                </div>
+            </div>
+        </div>
+        <div class="all-round">
+            <!-- activity log -->
+            <div class="activity-log">
+                <div class="activity-log-box1">
+                    <i class="fa-regular fa-file-lines fa-lg" style="color: rgb(116, 90, 194); margin-right: 10px;"></i>
+                    <div style=" height: 100%;display: flex; flex-direction: column; align-items: flex-start;">
+                        <span class="activity-log-num">12</span>
+                        <span class="activity-log-title">My Blogs</span>
+                    </div>
+                </div>
+                <div class="activity-log-box1">
+                    <i class="fa-regular fa-star fa-lg" style="color: rgb(116, 90, 194); margin-right: 10px;"></i>
+                    <div style=" height: 100%;display: flex; flex-direction: column; align-items: flex-start;">
+                        <span class="activity-log-num">8</span>
+                        <span class="activity-log-title title2">My Reviews</span>
+                    </div>
+                </div>
+                <div class="activity-log-box1 box3">
+                    <i class="fa-solid fa-user-group fa-lg" style="color: rgb(116, 90, 194); margin-right: 10px;"></i>
+                    <div style=" height: 100%;display: flex; flex-direction: column; align-items: flex-start;">
+                        <span class="activity-log-num">156</span>
+                        <span class="activity-log-title title2">Followers</span>
+                    </div>
+                </div>
+
+            </div>
+
+            <h3 class="Ac-title">Your Gaming Activity</h3>
+
+            <!-- myblog-card -->
+            <div class="my-blogs-card">
+                <div class="blog-top">
+                    <div class="my-blog-title-box">
+                        <span class="activity-log-num">My Blogs</span> <br>
+                        <span style="color: rgb(98, 73, 121);" class="activity-log-title">12 Published Posts</span>
+                    </div>
+                    <div class="view-all-bt-Ac">
+                        <a href="#">View All<i class="fa-solid fa-arrow-right fa-xs" style="color: rgb(90, 70, 151);"></i></a>
+                    </div>
+                </div>
+                <div class="blog-bottom">
+                    <div class="blog-bottom1">
+                        <div class="image-ac-myblog"></div>
+                        <div class="my-blog1-details">
+                            <span>Elden Ring is a masterpeice..</span>
+                            <p>12 Sep 2026</p>
+                        </div>
+                    </div>
+                    <div class="blog-bottom1">
+                        <div class="image-ac-myblog image-blog2"></div>
+                        <div class="my-blog1-details">
+                            <span>Why the nun still terrifies?</span>
+                            <p>6 Sep 2026</p>
+                        </div>
+                    </div>
+                    <div class="blog-bottom1 bb2">
+                        <div class="image-ac-myblog image-blog3"></div>
+                        <div class="my-blog1-details">
+                            <span>The Last of Us - A journey of hope and Survival</span>
+                            <p>10 Aug 2026</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <!-- review cards -->
+             <div class="my-blogs-card">
+                <div class="blog-top">
+                    <div class="my-blog-title-box">
+                        <span class="activity-log-num">My Reviews</span> <br>
+                        <span style="color: rgb(98, 73, 121);" class="activity-log-title">8 Game Reviews</span>
+                    </div>
+                    <div class="view-all-bt-Ac">
+                        <a href="#">View All<i class="fa-solid fa-arrow-right fa-xs" style="color: rgb(90, 70, 151);"></i></a>
+                    </div>
+                </div>
+                <div class="blog-bottom">
+                    <div class="blog-bottom1">
+                        <div class="image-ac-myblog review-img1"></div>
+                        <div class="my-blog1-details">
+                            <span>Red Dead Redemption 2</span> <br>
+                            <i class="fa-solid fa-star" style="color: rgb(255, 212, 59);"></i> <span style="color: rgb(202, 174, 13);">4.5/5</span>
+                            <p>20 Aug 2026</p>
+                        </div>
+                    </div>
+                    <div class="blog-bottom1">
+                        <div class="image-ac-myblog review-img2"></div>
+                        <div class="my-blog1-details">
+                            <span>Beautiful Chaotic, and Surprisingly emotional</span> <br>
+                            <i class="fa-solid fa-star" style="color: rgb(255, 212, 59);"></i> <span style="color: rgb(202, 174, 13);">3.5/5</span>
+                            <p>3 Aug 2026</p>
+                        </div>
+                    </div>
+                    <div class="blog-bottom1 bb2">
+                        <div class="image-ac-myblog review-img3"></div>
+                        <div class="my-blog1-details">
+                            <span>Something is strange about Vanderbooms..</span><br>
+                            <i class="fa-solid fa-star" style="color: rgb(255, 212, 59);"></i> <span style="color: rgb(202, 174, 13);">3.0/5</span>
+                            <p>1 Aug 2026</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <!-- saved posts -->
+             <div class="my-blogs-card">
+                <div class="blog-top">
+                    <div class="my-blog-title-box">
+                        <span class="activity-log-num">Saved Posts</span> <br>
+                        <span style="color: rgb(98, 73, 121);" class="activity-log-title">Your Bookmarks</span>
+                    </div>
+                    <div class="view-all-bt-Ac">
+                        <a href="#">View All<i class="fa-solid fa-arrow-right fa-xs" style="color: rgb(90, 70, 151);"></i></a>
+                    </div>
+                </div>
+                <div class="blog-bottom">
+                    <div class="blog-bottom1">
+                        <div class="image-ac-myblog Savedimg1"></div>
+                        <div class="my-blog1-details">
+                            <span>The Conjuring- Real Story or just a movie</span> <br>
+                            <label class="saved-post-label"> Blog </label>
+                        </div>
+                    </div>
+                    <div class="blog-bottom1">
+                        <div class="image-ac-myblog Savedimg2"></div>
+                        <div class="my-blog1-details">
+                            <span>Best Open world Games of 2026</span> <br>
+                            <label class="saved-post-label"> Review </label>
+                        </div>
+                    </div>
+                    <div class="blog-bottom1 bb2">
+                        <div class="image-ac-myblog Savedimg3"></div>
+                        <div class="my-blog1-details">
+                            <span>Top 10 Horror games you should Play</span><br>
+                            <label class="saved-post-label"> Blog </label>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <!-- Account Settings -->
+            <div class="Account-Setting">
+                <i class="fa-solid fa-gear fa-2xl" style="color: rgb(112, 73, 219);"></i><span class="ac-setting-title">Account Settings</span>
+                <br>
+                <div class="b1 edit-profile-sec">
+                    <div>
+                        <i class="fa-regular fa-user fa-2xl" style="color: rgb(163, 144, 214);"></i>
+                    </div>
+                    <div class="edit-profile-details">
+                        <a href="#">Edit Profile</a><br>
+                        <span>Update your name, bio and cover</span>
+                    </div>
+                    <div class="child3">
+                        <a href="#"><i class="fa-solid fa-angle-right fa-lg" style="color: rgb(163, 144, 214);"></i></a>
+                    </div>
+                </div>
+                <div class="b1 Notifications">
+                    <div>
+                        <i class="fa-regular fa-bell fa-2xl" style="color: rgb(163, 144, 214)"></i>
+                    </div>
+                    <div class="edit-profile-details">
+                        <a href="#">Notifications</a><br>
+                        <span>Manage your Alerts and Updates</span>
+                    </div>
+                    <div class="child3">
+                        <a href="#"><i class="fa-solid fa-angle-right fa-lg" style="color: rgb(163, 144, 214);"></i></a>
+                    </div>
+                </div>
+                <div class="b1 privacy-security">
+                    <div>
+                        <i class="fa-solid fa-shield-cat fa-2xl" style="color: rgb(163, 144, 214);"></i>
+                    </div>
+                    <div class="edit-profile-details">
+                        <a href="#">Privacy & Security</a><br>
+                        <span>Control your Data & Account Safety</span>
+                    </div>
+                    <div class="child3">
+                        <a href="#"><i class="fa-solid fa-angle-right fa-lg" style="color: rgb(163, 144, 214);"></i></a>
+                    </div>
+                </div>
+                <div class="b1 help-support">
+                    <div>
+                        <i class="fa-solid fa-circle-question fa-2xl" style="color: rgb(163, 144, 214);"></i>
+                    </div>
+                    <div class="edit-profile-details">
+                        <a href="#">Help & Support</a><br>
+                        <span>Get help or Contact Us</span>
+                    </div>
+                    <div class="child3">
+                        <a href="#"><i class="fa-solid fa-angle-right fa-lg" style="color: rgb(163, 144, 214);"></i></a>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <a class="log-out-bt" href="index.html">Log out</a>
+    </div>
+    <footer>
+        <div class="bottom-footer">
+            <div class="icon-footer">
+                <img id="icon-ft" src="images/icon.png" alt="">
+            </div>
+            <div class="socio-icon">
+                <i style="color: white; margin-right: 10px;" class="fa-brands fa-instagram fa-lg"></i>
+                <i style="color: white; margin-right: 10px;" class="fa-brands fa-facebook fa-lg"></i>
+                <i style="color: white; margin-right: 10px;" class="fa-brands fa-discord fa-lg"></i>
+                <i style="color: white; margin-right: 10px;" class="fa-brands fa-youtube fa-lg"></i>
+                <i style="color: white;" class="fa-brands fa-x-twitter fa-lg"></i>
+            </div>
+            <div class="rights">
+                <span style="font-size: 15px; text-align: center;" class="rights-reserved-text">© 2026 Purrfect Play. All rights reserved. <br> Privacy Policy | Terms of Service | Cookie Settings</span>
+            </div>
+        </div>
+    </footer>
+</body>
+</html>
